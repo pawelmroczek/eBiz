@@ -1,0 +1,304 @@
+{
+    "Yarn + Fiber": [
+        {
+            "name": "Wool of the Andes Worsted",
+            "description": "Worsted | 100% Peruvian Highland Wool",
+            "price": "$3.99"
+        },
+        {
+            "name": "Brava Worsted",
+            "description": "Worsted | 100% Premium Acrylic",
+            "price": "$3.19"
+        },
+        {
+            "name": "Wool of the Andes Tweed Worsted",
+            "description": "Worsted | 80% Peruvian Highland Wool, 20% Donegal Tweed",
+            "price": "$5.49"
+        },
+        {
+            "name": "Brava Tweed",
+            "description": "Worsted | 97% Premium Acrylic, 3% Viscose",
+            "price": "$3.99"
+        },
+        {
+            "name": "Dishie",
+            "description": "Worsted | 100% Cotton",
+            "price": "$4.19"
+        },
+        {
+            "name": "Animation",
+            "description": "DK | 100% Mercerized Cotton",
+            "price": "$2.49"
+        },
+        {
+            "name": "Palette",
+            "description": "Fingering | 100% Peruvian Highland Wool",
+            "price": "$2.99"
+        },
+        {
+            "name": "Comfy Worsted",
+            "description": "Worsted | 75% Pima Cotton / 25% Acrylic",
+            "price": "$4.99"
+        },
+        {
+            "name": "Swish Worsted",
+            "description": "Worsted | 100% Fine Superwash Merino Wool",
+            "price": "$6.99"
+        },
+        {
+            "name": "Brava Sport",
+            "description": "Sport | 100% Premium Acrylic",
+            "price": "$3.19"
+        },
+        {
+            "name": "Mighty Stitch",
+            "description": "Worsted | 80% Acrylic, 20% Superwash Wool",
+            "price": "$2.99"
+        },
+        {
+            "name": "Comfy Sport",
+            "description": "Sport | 75% Pima Cotton, 25% Acrylic",
+            "price": "$4.99"
+        },
+        {
+            "name": "CotLin",
+            "description": "DK | 70% Tanguis Cotton / 30% Linen",
+            "price": "$5.29"
+        },
+        {
+            "name": "Brava Bulky",
+            "description": "Bulky | 100% Premium Acrylic",
+            "price": "$3.19"
+        },
+        {
+            "name": "Lion Brand Color Theory",
+            "description": "Worsted | 100% Acrylic",
+            "price": "$5.94"
+        },
+        {
+            "name": "City Tweed DK",
+            "description": "DK | 55% Merino Wool, 25% Superfine Alpaca, 20% Donegal Tweed",
+            "price": "$5.59"
+        },
+        {
+            "name": "Heatherly Worsted",
+            "description": "Worsted | 80% Acrylic, 20% Merino Wool",
+            "price": "$6.99"
+        },
+        {
+            "name": "Wool of the Andes Sport",
+            "description": "Sport | 100% Peruvian Highland Wool",
+            "price": "$3.99"
+        },
+        {
+            "name": "Swish DK",
+            "description": "DK | 100% Fine Superwash Merino Wool",
+            "price": "$6.99"
+        },
+        {
+            "name": "Wool of the Andes Superwash Worsted",
+            "description": "Worsted | 100% Superwash Wool",
+            "price": "$5.49"
+        },
+        {
+            "name": "Stroll",
+            "description": "Fingering | 75% Fine Superwash Merino Wool, 25% Nylon",
+            "price": "$5.03"
+        },
+        {
+            "name": "Curio #3",
+            "description": "Lace | 100% Mercerized Cotton",
+            "price": "$4.19"
+        },
+        {
+            "name": "Comfy Fingering",
+            "description": "Fingering | 75% Pima Cotton, 25% Acrylic",
+            "price": "$4.99"
+        },
+        {
+            "name": "Upcycle Alpaca Blend Sport",
+            "description": "Sport | 33% Alpaca, 34% Wool, 33% Acrylic",
+            "price": "$3.99"
+        },
+        {
+            "name": "Fairy Tale Fur",
+            "description": "Super Bulky | 100% Polyester",
+            "price": "$5.19"
+        },
+        {
+            "name": "Lion Brand Wool-Ease Thick & Quick",
+            "description": "Super Bulky | 80% Acrylic, 20% Wool",
+            "price": "$9.34"
+        },
+        {
+            "name": "Vividie",
+            "description": "Worsted | 100% Mercerized Cotton",
+            "price": "$4.99"
+        },
+        {
+            "name": "Heatherly Sport",
+            "description": "Sport | 80% Acrylic, 20% Merino Wool",
+            "price": "$6.99"
+        },
+        {
+            "name": "Lion Brand Vanna's Choice",
+            "description": "Worsted | 100% Acrylic",
+            "price": "$4.24"
+        },
+        {
+            "name": "Wool of the Andes Bulky",
+            "description": "Bulky | 100% Peruvian Highland Wool",
+            "price": "$6.99"
+        },
+        {
+            "name": "Tuff Puff",
+            "description": "Super Bulky | 100% Wool",
+            "price": "$6.99"
+        },
+        {
+            "name": "Hawthorne Fingering",
+            "description": "Fingering | 80% Fine Superwash Highland Wool, 20% Polyamide (Nylon)",
+            "price": "$14.99"
+        },
+        {
+            "name": "Dishie Cone",
+            "description": "Worsted | 100% Cotton",
+            "price": "$15.99"
+        },
+        {
+            "name": "Lion Brand Hue + Me",
+            "description": "Bulky | 80% Acrylic, 20% Wool",
+            "price": "$5.94"
+        },
+        {
+            "name": "Mill House Super Bulky",
+            "description": "Super Bulky | 100% Acrylic",
+            "price": "$2.99"
+        },
+        {
+            "name": "Curio #10",
+            "description": "Lace | 100% Mercerized Cotton",
+            "price": "$4.19"
+        },
+        {
+            "name": "Wool of the Andes Roving",
+            "description": "100% Peruvian Highland Wool Roving",
+            "price": "$6.99"
+        },
+        {
+            "name": "Aloft Super Kid Mohair",
+            "description": "Lace | 72% Super Kid Mohair, 28% Silk",
+            "price": "$9.99"
+        },
+        {
+            "name": "Shine Sport",
+            "description": "Sport | 60% Pima Cotton, 40% Modal",
+            "price": "$4.99"
+        },
+        {
+            "name": "Brava Recycle",
+            "description": "DK | 100% Recycled Acrylic",
+            "price": "$3.99"
+        },
+        {
+            "name": "Stroll Tweed",
+            "description": "Fingering | 65% Fine Superwash Merino Wool, 25% Nylon, 10% Donegal Tweed (made of  70% Acrylic, 30% Viscose)",
+            "price": "$6.99"
+        },
+        {
+            "name": "Chroma Worsted",
+            "description": "Worsted | 70% Superwash Wool, 30% Nylon",
+            "price": "$9.09"
+        },
+        {
+            "name": "Brava Stripe",
+            "description": "Worsted | 100% Premium Acrylic",
+            "price": "$3.99"
+        },
+        {
+            "name": "Billow",
+            "description": "Bulky | 100% Pima Cotton",
+            "price": "$9.49"
+        },
+        {
+            "name": "Wonderfluff",
+            "description": "Bulky | 70% Baby Alpaca, 7% Merino Wool, 23% Nylon",
+            "price": "$8.99"
+        },
+        {
+            "name": "Comfy Bulky",
+            "description": "Bulky | 75% Pima Cotton, 25% Acrylic",
+            "price": "$9.99"
+        },
+        {
+            "name": "Lion Brand Coboo",
+            "description": "DK | 51% Cotton, 49% Rayon from Bamboo",
+            "price": "$5.09"
+        },
+        {
+            "name": "Brava 500",
+            "description": "Worsted | 100% Premium Acrylic",
+            "price": "$10.49"
+        },
+        {
+            "name": "Animation Amigurumi Sets",
+            "description": "DK | 100% Mercerized Cotton",
+            "price": "$14.99"
+        },
+        {
+            "name": "Shine Worsted",
+            "description": "Worsted | 60% Pima Cotton, 40% Modal",
+            "price": "$4.99"
+        },
+        {
+            "name": "Brava Speckle",
+            "description": "Worsted | 100% Premium Acrylic",
+            "price": "$3.99"
+        },
+        {
+            "name": "Lion Brand Heartland",
+            "description": "Worsted | 100% Acrylic",
+            "price": "$5.94"
+        },
+        {
+            "name": "Upcycle Alpaca Blend Worsted",
+            "description": "Worsted | 33% Alpaca, 34% Wool, 33% Acrylic",
+            "price": "$3.99"
+        },
+        {
+            "name": "Wool of the Andes Superwash Bulky",
+            "description": "Bulky | 100% Superwash Wool",
+            "price": "$10.99"
+        },
+        {
+            "name": "City Tweed Aran/HW",
+            "description": "Aran/Heavy Worsted | 55% Merino Wool, 25% Superfine Alpaca, 20% Donegal Tweed",
+            "price": "$12.49"
+        },
+        {
+            "name": "Swish Pops",
+            "description": "DK | 100% Fine Superwash Merino Wool",
+            "price": "$10.19"
+        },
+        {
+            "name": "Chroma Fingering",
+            "description": "Fingering | 70% Superwash Wool, 30% Nylon",
+            "price": "$9.09"
+        },
+        {
+            "name": "Lindy Chain",
+            "description": "Fingering | 70% Linen, 30% Pima Cotton",
+            "price": "$7.99"
+        },
+        {
+            "name": "Gloss DK",
+            "description": "DK | 70% Merino Wool, 30% Silk",
+            "price": "$7.99"
+        },
+        {
+            "name": "Lion Brand Mandala Gradient",
+            "description": "Worsted | 100% Acrylic",
+            "price": "$7.64"
+        }
+    ]
+}
