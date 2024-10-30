@@ -1,0 +1,40 @@
+services:
+  db:
+    container_name: presta-database
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: presta
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - prestashop
+  presta:
+    container_name: presta
+    image: prestashop/prestashop:1.7.8
+    volumes:
+      # - type: bind
+      #   source: ./modules/module
+      #   target: /var/www/html/modules/module
+      # - type: bind
+      #   source: ./themes/myTheme
+      #   target: /var/www/html/themes/myTheme
+      - psdata:/var/www/html
+    environment:
+      DB_SERVER: db
+      DB_NAME: presta
+      DB_USER: root
+      DB_PASSWD: root
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - prestashop
+networks:
+  prestashop:
+volumes:
+  dbdata:
+  psdata:
