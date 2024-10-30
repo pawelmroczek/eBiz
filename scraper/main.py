@@ -90,12 +90,12 @@ def scrape_all_categories():
     print("Scrapowanie zakończone.")
 
 
-#categories = scrape_categories()
-#if categories:
-#    with open("categories.json", "w", encoding="utf-8") as f:
-#        json.dump({"categories": categories}, f, ensure_ascii=False, indent=4)
-#    print("Kategorie zapisane do pliku categories.json")
-#else:
-#    print("Nie znaleziono kategorii.")
+categories = scrape_categories()
+if categories:
+    with open("categories.json", "w", encoding="utf-8") as f:
+        json.dump({"categories": categories}, f, ensure_ascii=False, indent=4)
+    print("Kategorie zapisane do pliku categories.json")
+else:
+    print("Nie znaleziono kategorii.")
 
 scrape_all_categories()
