@@ -1,0 +1,965 @@
+{
+    "New": [
+        {
+            "name": "WeCrochet 2025 Calendar",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Colorful Crochet Cables",
+            "description": null,
+            "price": "$25.63"
+        },
+        {
+            "name": "Crossing Paths: Crochet Cabled Accessories eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Hooked on Quilting eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Sunday Brunch eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Long Weekend eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "The Muppets Official Crochet Amigurumi",
+            "description": null,
+            "price": "$27.88"
+        }
+    ],
+    "Beginner Crochet Books": [
+        {
+            "name": "The Step-by-Step Guide to 200 Crochet Stitches",
+            "description": null,
+            "price": "$16.09"
+        },
+        {
+            "name": "Mini Hook Book: Learn to Crochet Cables",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "The Complete Guide to Crochet Dolls and Animals",
+            "description": null,
+            "price": "$17.48"
+        },
+        {
+            "name": "Learn to Crochet in 10 Easy Lessons",
+            "description": null,
+            "price": "$24.95"
+        },
+        {
+            "name": "Mini Hook Book: Learn C2C Crochet",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Complete Crochet Handbook",
+            "description": null,
+            "price": "$36.95"
+        },
+        {
+            "name": "My First Sweater: A WeCrochet Collection",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn to Crochet",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn Filet Crochet",
+            "description": null,
+            "price": "$4.99"
+        }
+    ],
+    "eBooks": [
+        {
+            "name": "50 Dishcloths eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn To Crochet eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "My First Sweater eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Crossing Paths: Crochet Cabled Accessories eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Hooked on Quilting eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn Filet Crochet eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Sunday Brunch eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Aviary eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Colorful Snuggles eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Granny Glow Up eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Harvest Moon eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Long Weekend eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn C2C Crochet eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Tactile Texture eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Tell Me A Story eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 2 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 4 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "A la Mode eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "All is Bright eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Alpine Collection eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Behind the Seams eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Big & Little eBook",
+            "description": null,
+            "price": "$19.99"
+        },
+        {
+            "name": "Coffee Bar Couture eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Color Crush: Crochet Wraps eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cool Crochet for Warm Days: A Knits 'n Knots Collection eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cottage Crochet eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cozy Blankets: A Mini WeCrochet Blanket Collection eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cozy Cabin: Sweater Weather Makes eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Cozy Cowls: Beyond the Basics eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Cozy Cowls eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Cozy Luxury eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Embrace Crochet eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Expanding Horizons eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Festival eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Foliage eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "High Desert eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Hooked on Socks eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn to Crochet Cables eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Modular eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Out & About eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Perfect Pillows eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Set Sail eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Shoreline: Crochet Shawls eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Solstice eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Spring Soiree eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Square Pillows eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Terrace: Garden Inspired Garments eBook",
+            "description": null,
+            "price": "$9.09"
+        },
+        {
+            "name": "Tucked In Pattern Collection eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 1 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 3 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 5 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 6 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 7 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 8 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 9 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Winter Morning eBook",
+            "description": null,
+            "price": "$12.99"
+        }
+    ],
+    "View All": [
+        {
+            "name": "Cool Crochet for Warm Days: A Knits 'n Knots Collection",
+            "description": null,
+            "price": "$5.00"
+        },
+        {
+            "name": "WeCrochet Complete Yarn Guide",
+            "description": null,
+            "price": "$11.99"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 5",
+            "description": null,
+            "price": "$7.49"
+        },
+        {
+            "name": "Learn to Crochet Club: The Dishcloth Booklet",
+            "description": null,
+            "price": "$2.99"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 4",
+            "description": null,
+            "price": "$7.49"
+        },
+        {
+            "name": "Color Crush: Crochet Wraps",
+            "description": null,
+            "price": "$5.00"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 7",
+            "description": null,
+            "price": "$7.49"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 9",
+            "description": null,
+            "price": "$7.49"
+        },
+        {
+            "name": "The Step-by-Step Guide to 200 Crochet Stitches",
+            "description": null,
+            "price": "$16.09"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 6",
+            "description": null,
+            "price": "$7.49"
+        },
+        {
+            "name": "Mix & Match Modern Crochet Blankets",
+            "description": null,
+            "price": "$22.48"
+        },
+        {
+            "name": "100 Crochet Tiles",
+            "description": null,
+            "price": "$17.99"
+        },
+        {
+            "name": "Come Home to Crochet: 7 Home Decor Patterns",
+            "description": null,
+            "price": "$5.00"
+        },
+        {
+            "name": "Harry Potter: Crochet Wizardry",
+            "description": null,
+            "price": "$15.98"
+        },
+        {
+            "name": "Mini Hook Book: Learn to Crochet Cables",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Solstice",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "The Complete Guide to Crochet Dolls and Animals",
+            "description": null,
+            "price": "$17.48"
+        },
+        {
+            "name": "WeCrochet 2025 Calendar",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 8",
+            "description": null,
+            "price": "$7.49"
+        },
+        {
+            "name": "50 Dishcloths eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Block by Block Crochet",
+            "description": null,
+            "price": "$16.15"
+        },
+        {
+            "name": "Embrace Crochet",
+            "description": null,
+            "price": "$5.00"
+        },
+        {
+            "name": "Learn to Crochet in 10 Easy Lessons",
+            "description": null,
+            "price": "$24.95"
+        },
+        {
+            "name": "Mini Hook Book: Learn C2C Crochet",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn To Crochet eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "My First Sweater eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Room to Grow: A Baby Crochet Collection",
+            "description": null,
+            "price": "$5.00"
+        },
+        {
+            "name": "Behind the Seams",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Colorful Crochet Cables",
+            "description": null,
+            "price": "$25.63"
+        },
+        {
+            "name": "Complete Crochet Handbook",
+            "description": null,
+            "price": "$36.95"
+        },
+        {
+            "name": "Crossing Paths: Crochet Cabled Accessories eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Funny Amigurumi: 16 Creatures & Their Accessories to Crochet",
+            "description": null,
+            "price": "$14.98"
+        },
+        {
+            "name": "Granny Square Chic",
+            "description": null,
+            "price": "$15.98"
+        },
+        {
+            "name": "Hooked on Quilting eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn Filet Crochet eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Modern Crochet Sweaters",
+            "description": null,
+            "price": "$20.48"
+        },
+        {
+            "name": "Mosaic Crochet Workshop",
+            "description": null,
+            "price": "$14.68"
+        },
+        {
+            "name": "My First Sweater: A WeCrochet Collection",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Sunday Brunch eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "The Ultimate Granny Square Sourcebook",
+            "description": null,
+            "price": "$21.68"
+        },
+        {
+            "name": "Amazing Japanese Crochet Stitches",
+            "description": null,
+            "price": "$16.34"
+        },
+        {
+            "name": "Aviary eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Colorful Snuggles eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Colour Crochet Unlocked: The Ultimate How-to Guide",
+            "description": null,
+            "price": "$16.23"
+        },
+        {
+            "name": "Crochet Amigurumi for Every Occasion",
+            "description": null,
+            "price": "$22.48"
+        },
+        {
+            "name": "Crochet Projects Book Bundle",
+            "description": null,
+            "price": "$15.00"
+        },
+        {
+            "name": "Granny Glow Up eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Harvest Moon eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Long Weekend eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Mini Amigurumi Ocean: 26 Tiny Creatures to Crochet",
+            "description": null,
+            "price": "$10.75"
+        },
+        {
+            "name": "Mini Hook Book: Learn C2C Crochet eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn to Crochet",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Modern Crochet Bible",
+            "description": null,
+            "price": "$16.68"
+        },
+        {
+            "name": "Set Sail",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Tactile Texture eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Tell Me A Story eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "The Hooktionary: A Crochet Dictionary of 150 Modern Tapestry Crochet Motifs",
+            "description": null,
+            "price": "$21.98"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 2 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 4 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Winter Morning: A WeCrochet Collection",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "A La Mode",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "A la Mode eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "All is Bright eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Alpine: A WeCrochet Collection",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Alpine Collection eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Behind the Seams eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Big & Little eBook",
+            "description": null,
+            "price": "$19.99"
+        },
+        {
+            "name": "Bundled Up eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Coffee Bar Couture eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Color Crush: Crochet Wraps eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cool Crochet for Warm Days: A Knits 'n Knots Collection eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cottage Crochet eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cozy Blankets: A Mini WeCrochet Blanket Collection eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Cozy Cabin: Sweater Weather Makes eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Cozy Cowls: Beyond the Basics eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Cozy Cowls eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Cozy Luxury eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Crocheted Houseplants",
+            "description": null,
+            "price": "$22.39"
+        },
+        {
+            "name": "Embrace Crochet eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Expanding Horizons eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Festival eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Filet Crochet to Wear",
+            "description": null,
+            "price": "$22.99"
+        },
+        {
+            "name": "Foliage eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Friends: The One with the Crochet",
+            "description": null,
+            "price": "$22.86"
+        },
+        {
+            "name": "Granny Glow Up",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Harvest Moon",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "High Desert eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Hooked on Socks eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Kawaii Crochet Garden",
+            "description": null,
+            "price": "$16.38"
+        },
+        {
+            "name": "Mini Hook Book: Learn Filet Crochet",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Mini Hook Book: Learn to Crochet Cables eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Modular eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "My Pretty Brown Doll: Crochet Patterns for a Doll that Looks Like You",
+            "description": null,
+            "price": "$16.88"
+        },
+        {
+            "name": "Out & About",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Out & About eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Perfect Pillows eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Pokémon Crochet Vol 2",
+            "description": null,
+            "price": "$15.29"
+        },
+        {
+            "name": "Set Sail eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Shoreline",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Shoreline: Crochet Shawls eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Solstice eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Spring Soiree",
+            "description": null,
+            "price": "$14.99"
+        },
+        {
+            "name": "Spring Soiree eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Square Pillows eBook",
+            "description": null,
+            "price": "$4.99"
+        },
+        {
+            "name": "Summertime Friends: A Mini WeCrochet Amigurumi Collection eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Terrace: Garden Inspired Garments eBook",
+            "description": null,
+            "price": "$9.09"
+        },
+        {
+            "name": "The Muppets Official Crochet Amigurumi",
+            "description": null,
+            "price": "$27.88"
+        },
+        {
+            "name": "Timeless Textured Baby Crochet",
+            "description": null,
+            "price": "$19.78"
+        },
+        {
+            "name": "Tucked In Pattern Collection eBook",
+            "description": null,
+            "price": "$9.99"
+        },
+        {
+            "name": "Wallace & Gromit: Cracking Crochet",
+            "description": null,
+            "price": "$21.42"
+        },
+        {
+            "name": "WeCrochet Magazine: Issue 1 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 3 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 5 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 6 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 7 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 8 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "WeCrochet Magazine Issue 9 eBook",
+            "description": null,
+            "price": "$12.99"
+        },
+        {
+            "name": "Whimsical Stitches",
+            "description": null,
+            "price": "$16.43"
+        },
+        {
+            "name": "Winter Morning eBook",
+            "description": null,
+            "price": "$12.99"
+        }
+    ]
+}
