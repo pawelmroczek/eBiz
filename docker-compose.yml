@@ -8,20 +8,14 @@ services:
       MYSQL_DATABASE: presta
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - dbdata:/var/lib/mysql
+      - ./database/dbdata:/var/lib/mysql
     networks:
       - prestashop
   presta:
     container_name: presta
     image: prestashop/prestashop:1.7.8
     volumes:
-      # - type: bind
-      #   source: ./modules/module
-      #   target: /var/www/html/modules/module
-      # - type: bind
-      #   source: ./themes/myTheme
-      #   target: /var/www/html/themes/myTheme
-      - psdata:/var/www/html
+      - ./src/psdata:/var/www/html
     environment:
       DB_SERVER: db
       DB_NAME: presta
