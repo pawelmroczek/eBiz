@@ -1,0 +1,51 @@
+{
+    "Beginner Kits": [
+        {
+            "name": "Learn to Crochet Beanies Kit: Cake Pop",
+            "description_miniatur": null,
+            "from": "",
+            "price": "$12.99",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\15685e7c-6f55-48a0-93b4-9ab30cd57cdb.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\c85ea573-f545-4922-aefd-c87ced3583ff.jpg"
+            ],
+            "colors": []
+        }
+    ],
+    "Looops Crochet  Amigurumi Kits": [
+        {
+            "name": "Looops Crochet Kit: American Pika",
+            "description_miniatur": null,
+            "from": "",
+            "price": "$30.00",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\36cded08-ca19-4eb3-95ee-941c3fc612f7.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\c7ea37a0-ee70-4ef3-94da-07246b3c2bc2.jpg"
+            ],
+            "colors": []
+        }
+    ],
+    "Project Bundles": [
+        {
+            "name": "Keziah Shawl CAL Bundles",
+            "description_miniatur": null,
+            "from": "",
+            "price": "$39.92",
+            "images": [],
+            "colors": []
+        }
+    ],
+    "View All": [
+        {
+            "name": "Looops Crochet Kit: American Pika",
+            "description_miniatur": null,
+            "from": "",
+            "price": "$30.00",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\4d6d5be4-73e9-4db0-9ddd-518bafa8d93c.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\1926453e-e452-43dd-a309-58dde46fdfb2.jpg"
+            ],
+            "colors": []
+        }
+    ]
+}

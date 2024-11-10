@@ -1,0 +1,107 @@
+{
+    "New Colors": [
+        {
+            "name": "Aventurine",
+            "description_miniatur": "City Tweed DK | DK | 55% Merino Wool, 25% Superfine Alpaca, 20% Donegal Tweed",
+            "from": "",
+            "price": "$6.99",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\c54b0a5e-4585-4aac-8c5a-08a22281c342.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\543215d6-6c12-4fe3-90df-ef6e45453fd7.jpg"
+            ],
+            "colors": [
+                {
+                    "color": "Aquamarine",
+                    "img_mini": "..\\scraper_results\\categories\\zdjecia_produktow\\81f40c4c-3676-4f29-898d-9d46ca1778f9.jpg",
+                    "img_full": "..\\scraper_results\\categories\\zdjecia_produktow\\3730f091-2431-4886-995a-bff48fe513b3.jpg"
+                }
+            ]
+        }
+    ],
+    "Newest Yarn Lines": [
+        {
+            "name": "Animation",
+            "description_miniatur": "DK | 100% Mercerized Cotton",
+            "from": "",
+            "price": "$2.49",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\f2c94974-74c1-4a37-951b-0311219706df.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\dae17592-6ffe-48a5-bfc0-76389b6c10e0.jpg"
+            ],
+            "colors": [
+                {
+                    "color": "Azure",
+                    "img_mini": "..\\scraper_results\\categories\\zdjecia_produktow\\8fe6ddf1-35fd-4bc0-a5cf-3dd095df8d66.jpg",
+                    "img_full": "..\\scraper_results\\categories\\zdjecia_produktow\\6af4463f-bf4f-4003-afcd-52c8f71cf284.jpg"
+                }
+            ]
+        }
+    ],
+    "Berroco Yarns": [
+        {
+            "name": "Berroco Vintage DK",
+            "description_miniatur": "DK | 52% Acrylic, 40% Wool, 8% Nylon",
+            "from": "",
+            "price": "$10.00",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\c9b52e70-306f-47a8-bfd5-5b15124f8d8a.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\d0641e0e-807b-4853-8bec-a7cfcbb056b3.jpg"
+            ],
+            "colors": [
+                {
+                    "color": "Blue Moon",
+                    "img_mini": "..\\scraper_results\\categories\\zdjecia_produktow\\d9c6a5c2-a982-4aa3-a787-e6ddf8cf6099.jpg",
+                    "img_full": "..\\scraper_results\\categories\\zdjecia_produktow\\3cc864ce-b985-4f51-8a1d-f3d7ab44e5df.jpg"
+                }
+            ]
+        }
+    ],
+    "Lion Brand Yarns": [
+        {
+            "name": "Lion Brand Color Theory",
+            "description_miniatur": "Worsted | 100% Acrylic",
+            "from": "",
+            "price": "$6.99",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\7a964062-50f5-4eae-973d-cd182902419c.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\d18ea8be-10dc-46db-867f-f04f5e0c8228.jpg"
+            ],
+            "colors": [
+                {
+                    "color": "Admiral",
+                    "img_mini": "..\\scraper_results\\categories\\zdjecia_produktow\\f9abd26f-54df-4c7f-a988-e449196fc4de.jpg",
+                    "img_full": "..\\scraper_results\\categories\\zdjecia_produktow\\a090495d-b016-4f90-a345-14c982ddb462.jpg"
+                }
+            ]
+        }
+    ],
+    "Yarn Value Packs": [
+        {
+            "name": "Brava Tweed Value Packs",
+            "description_miniatur": null,
+            "from": "",
+            "price": "$14.97",
+            "images": [],
+            "colors": []
+        }
+    ],
+    "View All": [
+        {
+            "name": "Brava Tweed",
+            "description_miniatur": "Worsted | 97% Premium Acrylic, 3% Viscose",
+            "from": "",
+            "price": "$4.99",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\f662bd9e-2d57-4a56-9a47-13fffb9d44f1.jpg",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\93e47434-3c1b-4539-a8b9-a76cad607107.jpg"
+            ],
+            "colors": [
+                {
+                    "color": "Heron",
+                    "img_mini": "..\\scraper_results\\categories\\zdjecia_produktow\\ad31f8d0-f53a-4d9b-9644-992fb849d899.jpg",
+                    "img_full": "..\\scraper_results\\categories\\zdjecia_produktow\\f85d15a2-bcd0-481f-b710-81b382dbca90.jpg"
+                }
+            ]
+        }
+    ]
+}

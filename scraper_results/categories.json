@@ -12,6 +12,10 @@
                     "url": "https://www.crochet.com/yarn/newest-yarn-lines/c/500112"
                 },
                 {
+                    "name": "Berroco Yarns",
+                    "url": "https://www.crochet.com/yarn/berrocco/c/50011803"
+                },
+                {
                     "name": "Lion Brand Yarns",
                     "url": "https://www.crochet.com/yarn/lion-brand/c/50011802"
                 },
@@ -85,94 +89,6 @@
                 {
                     "name": "View All",
                     "url": "https://www.crochet.com/patterns/view-all/c/500298"
-                }
-            ]
-        },
-        {
-            "name": "Books",
-            "subcategories": [
-                {
-                    "name": "New",
-                    "url": "https://www.crochet.com/books/new/c/500401"
-                },
-                {
-                    "name": "Beginner Crochet Books",
-                    "url": "https://www.crochet.com/books/beginner-crochet-books/c/500437"
-                },
-                {
-                    "name": "eBooks",
-                    "url": "https://www.crochet.com/books/ebooks/c/500411"
-                },
-                {
-                    "name": "View All",
-                    "url": "https://www.crochet.com/books/view-all-books/c/500498"
-                }
-            ]
-        },
-        {
-            "name": "Tools",
-            "subcategories": [
-                {
-                    "name": "New",
-                    "url": "https://www.crochet.com/accessories/new/c/500517"
-                },
-                {
-                    "name": "$5 & Under",
-                    "url": "https://www.crochet.com/accessories/5-under/c/500563"
-                },
-                {
-                    "name": "Tool Sets",
-                    "url": "https://www.crochet.com/accessories/tool-sets/c/500555"
-                },
-                {
-                    "name": "View All",
-                    "url": "https://www.crochet.com/accessories/view-all-tools/c/500598"
-                }
-            ]
-        },
-        {
-            "name": "Learn",
-            "subcategories": [
-                {
-                    "name": "Learning Center",
-                    "url": "https://www.crochet.com/learning-center"
-                },
-                {
-                    "name": "Crochet Tips",
-                    "url": "https://www.crochet.com/learning-center/crochet-tips-for-beginners"
-                },
-                {
-                    "name": "Learn To Crochet",
-                    "url": "https://www.crochet.com/learning-center/learn-to-crochet"
-                },
-                {
-                    "name": "Guide to Crochet Hooks",
-                    "url": "https://www.crochet.com/learning-center/guide-to-crochet-hooks"
-                }
-            ]
-        },
-        {
-            "name": "Sale",
-            "subcategories": [
-                {
-                    "name": "Clearance Books",
-                    "url": "https://www.crochet.com/clearance/clearance-books/c/501004"
-                },
-                {
-                    "name": "Clearance Kits",
-                    "url": "https://www.crochet.com/clearance/clearance-kits/c/501001"
-                },
-                {
-                    "name": "Clearance Tools",
-                    "url": "https://www.crochet.com/clearance/clearance-tools/c/501003"
-                },
-                {
-                    "name": "Clearance Yarns",
-                    "url": "https://www.crochet.com/clearance/clearance-yarn/c/501002"
-                },
-                {
-                    "name": "View All",
-                    "url": "https://www.crochet.com/5010/filter-products"
                 }
             ]
         }
