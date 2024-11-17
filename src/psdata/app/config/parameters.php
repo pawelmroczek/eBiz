@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'db',
+    'database_port' => '',
+    'database_name' => 'presta',
+    'database_user' => 'root',
+    'database_password' => 'root',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'Y7bKWyNB9dFrWjhPV1jabAWZyWHuhPcr3VH9TdB3QV6BY9oivqhzFCXovi3QZxmX',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2024-11-16',
+    'locale' => 'pl-PL',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'KMJUM5PzoqjjfZb9B3WQrPeScO8OVRe61bUFJR6moaYZzAGpyyqv4jt9QqjpNfqt',
+    'cookie_iv' => 'HeJSj26Ax8CJNeUr3q7UTP05PwLS2uOV',
+    'new_cookie_key' => 'def00000b9fb4ecb8e74ea69ecac9ffec44ff5bdd45f59e2886a745dd8cf72ba724b898811b0b9819be417b90383c91ebea69938b25fad618aa774622a59726499f982bc',
+  ),
+);
