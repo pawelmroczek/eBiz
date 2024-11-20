@@ -1,0 +1,5 @@
+Krok 1:
+chmod +x dump_sql.sh
+
+Krok 2:
+./dump_sql.sh
