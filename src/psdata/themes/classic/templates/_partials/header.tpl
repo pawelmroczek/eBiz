@@ -24,6 +24,10 @@
  *}
 {block name='header_banner'}
   <div class="header-banner">
+    <div class="banner">
+      <span class="banner__text">The Big Yarn Sale, Up to 60% Off Favorite Yarns.</span>
+      <a class="banner__link" href="/sale/wc1124-the-big-yarn-sale?id=50110806">Shop Now! »</a>
+     </div>
     {hook h='displayBanner'}
   </div>
 {/block}
