@@ -32,7 +32,7 @@
   </div>
 {/block}
 
-{block name='header_nav'}
+{*{block name='header_nav'}
   <nav class="header-nav">
     <div class="container">
       <div class="row">
@@ -56,11 +56,11 @@
       </div>
     </div>
   </nav>
-{/block}
+{/block}*}
 
 {block name='header_top'}
   <div class="header-top">
-    <div class="container">
+    <nav class="container navigation">
        <div class="row">
         <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
           {if $shop.logo_details}
@@ -73,7 +73,9 @@
             {/if}
           {/if}
         </div>
-        <div class="header-top-right col-md-10 col-sm-12 position-static">
+        
+          
+      <div class="header-top-right col-md-10 col-sm-12 position-static">
           {hook h='displayTop'}
         </div>
       </div>
@@ -85,6 +87,7 @@
           <div id="_mobile_contact_link"></div>
         </div>
       </div>
+      {hook h='displayNav2'}
     </div>
   </div>
   {hook h='displayNavFullWidth'}
