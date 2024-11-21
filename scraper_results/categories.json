@@ -1,0 +1,56 @@
+{
+    "categories": [
+        {
+            "name": "Yarn",
+            "subcategories": [
+                {
+                    "name": "New Colors",
+                    "url": "https://www.crochet.com/yarn/new-colors/c/500132"
+                },
+                {
+                    "name": "View All",
+                    "url": "https://www.crochet.com/yarn/view-all-yarns/c/500198"
+                }
+            ]
+        },
+        {
+            "name": "Kits & Bundles",
+            "subcategories": [
+                {
+                    "name": "Beginner Kits",
+                    "url": "https://www.crochet.com/kits/beginner-kits/c/500801"
+                },
+                {
+                    "name": "View All",
+                    "url": "https://www.crochet.com/kits/view-all/c/500819"
+                }
+            ]
+        },
+        {
+            "name": "Hooks",
+            "subcategories": [
+                {
+                    "name": "New",
+                    "url": "https://www.crochet.com/hooks/new/c/500307"
+                },
+                {
+                    "name": "View All",
+                    "url": "https://www.crochet.com/hooks/view-all-hooks/c/500397"
+                }
+            ]
+        },
+        {
+            "name": "Patterns",
+            "subcategories": [
+                {
+                    "name": "New",
+                    "url": "https://www.crochet.com/patterns/new/c/500220"
+                },
+                {
+                    "name": "View All",
+                    "url": "https://www.crochet.com/patterns/view-all/c/500298"
+                }
+            ]
+        }
+    ]
+}

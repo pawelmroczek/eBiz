@@ -18,6 +18,11 @@ if os.path.exists(folder_name):
     shutil.rmtree(folder_name)
 os.makedirs(folder_name, exist_ok=True)
 
+folder_name_patterns = "..\\scraper_results\\categories\\zdjecia_produktow_patterns"
+if os.path.exists(folder_name_patterns):
+    shutil.rmtree(folder_name_patterns)
+os.makedirs(folder_name_patterns, exist_ok=True)
+
 
 def scrape_categories():
     response = requests.get(url, headers=headers)
@@ -193,9 +198,9 @@ def scrape_category(category_url):
                     color_img = a.find('img', class_='h-full bg-white w-16 object-center object-contain group-hover:opacity-80')
                 else:
                     color = color_img['alt']
-                color_img_m = color_img['src']
+                #color_img_m = color_img['src']
                 color_price = a.find('span', class_='flex flex-wrap items-center justify-start gap-2').get_text()
-
+                '''
                 if color_img_m:
                     img_data = requests.get(color_img_m).content
                     unique_id = uuid.uuid4()
@@ -204,7 +209,6 @@ def scrape_category(category_url):
 
                     with open(img_filename, 'wb') as img_file:
                         img_file.write(img_data)
-
                 if not link.startswith("http"):
                     link = url + link
 
@@ -225,11 +229,11 @@ def scrape_category(category_url):
 
                     with open(img_filename, 'wb') as img_file:
                         img_file.write(img_data)
-
+                '''
                 colors.append({
                     "name": color,
-                    "img_mini": color_img_m,
-                    "img_full": color_full_img,
+                    #"img_mini": color_img_m,
+                    #"img_full": color_full_img,
                     "price": color_price
                 })
                 #break #testing with one color !!!!!!!!!!!
@@ -311,20 +315,27 @@ def scrape_category_patterns(category_url):
             if not product_page_url.startswith("http"):
                 product_page_url = url + product_page_url
 
+            tries = 0
             # Ustawienia przeglądarki
-            driver = webdriver.Chrome()  # Lub inny sterownik, np. Firefox
-            driver.get(product_page_url)
+            while tries < 3:
 
-            # Poczekaj, aż JavaScript się wykona (opcjonalnie)
-            #import time
-            #time.sleep(2)
+                driver = webdriver.Chrome()  # Lub inny sterownik, np. Firefox
+                driver.get(product_page_url)
+                '''
+                # Poczekaj, aż JavaScript się wykona (opcjonalnie)
+                import time
+                time.sleep(2)
+                '''
+                # Pobierz pełny HTML po wykonaniu JS
+                page_source = driver.page_source
+                driver.quit()
 
-            # Pobierz pełny HTML po wykonaniu JS
-            page_source = driver.page_source
-            driver.quit()
+                # Przetwarzanie z BeautifulSoup
+                soup2 = BeautifulSoup(page_source, 'html.parser')
 
-            # Przetwarzanie z BeautifulSoup
-            soup2 = BeautifulSoup(page_source, 'html.parser')
+                if soup2.find('div', class_='w-full lg:space-y-6') is not None:
+                    break
+                tries = tries + 1
             '''
             response_product = requests.get(f"{product_page_url}", headers=headers)
             if response_product.status_code != 200:
@@ -350,11 +361,13 @@ def scrape_category_patterns(category_url):
 
             if images.__len__() == 0:
                 image = soup2.find('img', class_='img-zoomable max-w-full max-h-full object-contain object-center')
-                img_url = image.get('data-img-zoom-src')
+                img_url = None
+                if image is not None:
+                    img_url = image.get('data-img-zoom-src')
                 if img_url:
                     img_data = requests.get(img_url).content
                     unique_id = uuid.uuid4()
-                    img_filename = os.path.join(folder_name, f"{unique_id}.jpg")
+                    img_filename = os.path.join(folder_name_patterns, f"{unique_id}.jpg")
                     img_names.append(img_filename)
 
                     with open(img_filename, 'wb') as img_file:
@@ -365,7 +378,7 @@ def scrape_category_patterns(category_url):
                     if img_url:
                         img_data = requests.get(img_url).content
                         unique_id = uuid.uuid4()
-                        img_filename = os.path.join(folder_name, f"{unique_id}.jpg")
+                        img_filename = os.path.join(folder_name_patterns, f"{unique_id}.jpg")
                         img_names.append(img_filename)
 
                         with open(img_filename, 'wb') as img_file:
@@ -373,87 +386,102 @@ def scrape_category_patterns(category_url):
 
 
             #opcje patterns
-
-            options_divs = soup2.find('div', class_='w-full lg:space-y-6')
-            options_divs = options_divs.find_all('div', recursive=False)
-
-            div_size_parent = options_divs[0]
-            div_yarn_parent = options_divs[1]
-
             size = []
-            div_size = div_size_parent.find('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close font-bold bg-gray-100')
-            size.append(div_size.get_text(strip=True))
-            divs_size = div_size_parent.find_all('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close')
-
-            for size_option in divs_size:
-                size.append(size_option.get_text(strip=True))
-
             choose_yarn = []
-            div_choose_yarn = div_yarn_parent.find('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close font-bold bg-gray-100')
-            choose_yarn.append(div_choose_yarn.get_text(strip=True))
-            divs_choose_yarn = div_yarn_parent.find_all('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close')
-
-            for choose_yarn_option in divs_choose_yarn:
-                choose_yarn.append(choose_yarn_option.get_text(strip=True))
-
             colors = []
+            if tries < 3:
 
-            all_options_colors = soup2.find('div', class_='grid gap-4 grid-cols-1 sm:grid-cols-2 grid-flow-dense relative')
+                options_divs = soup2.find('div', class_='w-full lg:space-y-6')
+                options_divs = options_divs.find_all('div', recursive=False)
 
-            all_options_colors = all_options_colors.find_all('div', recursive=False)
+                div_size_parent = options_divs[0]
+                div_yarn_parent = options_divs[1]
 
-            for option_color in all_options_colors:
-                c_price = option_color.find('span', class_='text-gray-500 price-is')
-                if c_price is None:
-                    c_price = option_color.find('span', class_='text-gray-500 line-through price-was')
-                c_price = c_price.get_text(strip=True)
-                c_name = option_color.find('div', class_='text-black font-bold').get_text(strip=True)
-                c_img = option_color.find('img', class_='w-full h-full rounded-full object-cover object-center shadow-md group-hover:opacity-60')
-                c_img_url = c_img.get('src')
-                if c_img_url:
-                    img_data = requests.get(c_img_url).content
-                    unique_id = uuid.uuid4()
-                    img_filename = os.path.join(folder_name, f"{unique_id}.jpg")
-                    c_img = img_filename
+                div_size = div_size_parent.find('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close font-bold bg-gray-100')
+                size.append(div_size.get_text(strip=True))
+                divs_size = div_size_parent.find_all('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close')
 
-                    with open(img_filename, 'wb') as img_file:
-                        img_file.write(img_data)
+                for size_option in divs_size:
+                    size.append(size_option.get_text(strip=True))
 
-                first_color = {
-                    "name": c_name,
-                    "price": c_price,
-                    "img": c_img
-                }
-                other_colors = []
-                other_colors_divs = option_color.findAll('div', class_='cursor-pointer group flex flex-col items-center text-xs py-2 relative rt-popout__close')
+                div_choose_yarn = div_yarn_parent.find('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close font-bold bg-gray-100')
+                if div_choose_yarn is not None:
+                    choose_yarn.append(div_choose_yarn.get_text(strip=True))
+                    divs_choose_yarn = div_yarn_parent.find_all('div', class_='py-2 px-3 hover:bg-gray-100 cursor-pointer rt-popout__close')
 
-                for c_div in other_colors_divs:
-                    c_price = c_div.find('span', class_='text-gray-500 price-is')
-                    if c_price is None:
-                        c_price = c_div.find('span', class_='text-gray-500 line-through price-was')
-                    c_price = c_price.get_text(strip=True)
-                    c_name = c_div.find('div', class_='text-center').get_text(strip=True)
-                    c_img = c_div.find('img', class_='w-14 h-14 rounded-full object-contain group-hover:opacity-60')
-                    c_img_url = c_img.get('src')
-                    if c_img_url:
-                        img_data = requests.get(c_img_url).content
-                        unique_id = uuid.uuid4()
-                        img_filename = os.path.join(folder_name, f"{unique_id}.jpg")
-                        c_img = img_filename
+                    for choose_yarn_option in divs_choose_yarn:
+                        choose_yarn.append(choose_yarn_option.get_text(strip=True))
 
-                        with open(img_filename, 'wb') as img_file:
-                            img_file.write(img_data)
+                first_color = ""
+                other_colors = ""
 
-                    other_colors.append({
-                        "name": c_name,
-                        "price": c_price,
-                        "img": c_img
+                all_options_colors = soup2.find('div', class_='grid gap-4 grid-cols-1 sm:grid-cols-2 grid-flow-dense relative')
+                if all_options_colors is not None:
+                    all_options_colors = all_options_colors.find_all('div', recursive=False)
+
+                    for option_color in all_options_colors:
+                        c_price = option_color.find('span', class_='text-gray-500 price-is')
+                        if c_price is None:
+                            c_price = option_color.find('span', class_='text-gray-500 line-through price-was')
+                        if c_price is not None:
+                            c_price = c_price.get_text(strip=True)
+                        else:
+                            c_price = ""
+                        c_name = option_color.find('div', class_='text-black font-bold')
+                        if c_name is not None:
+                            c_name = c_name.get_text(strip=True)
+                        else:
+                            c_name = ""
+                        '''
+                        c_img = option_color.find('img', class_='w-full h-full rounded-full object-cover object-center shadow-md group-hover:opacity-60')
+                        c_img_url = ""
+                        if c_img is not None:
+                            c_img_url = c_img.get('src')
+                        if c_img_url:
+                            img_data = requests.get(c_img_url).content
+                            unique_id = uuid.uuid4()
+                            img_filename = os.path.join(folder_name_patterns, f"{unique_id}.jpg")
+                            c_img = img_filename
+        
+                            with open(img_filename, 'wb') as img_file:
+                                img_file.write(img_data)
+                        '''
+                        first_color = {
+                            "name": c_name,
+                            "price": c_price,
+                            #"img": c_img
+                        }
+                        other_colors = []
+                        other_colors_divs = option_color.findAll('div', class_='cursor-pointer group flex flex-col items-center text-xs py-2 relative rt-popout__close')
+
+                        for c_div in other_colors_divs:
+                            c_price = c_div.find('span', class_='text-gray-500 price-is')
+                            if c_price is None:
+                                c_price = c_div.find('span', class_='text-gray-500 line-through price-was')
+                            c_price = c_price.get_text(strip=True)
+                            c_name = c_div.find('div', class_='text-center').get_text(strip=True)
+                            '''
+                            c_img = c_div.find('img', class_='w-14 h-14 rounded-full object-contain group-hover:opacity-60')
+                            c_img_url = c_img.get('src')
+                            if c_img_url:
+                                img_data = requests.get(c_img_url).content
+                                unique_id = uuid.uuid4()
+                                img_filename = os.path.join(folder_name_patterns, f"{unique_id}.jpg")
+                                c_img = img_filename
+        
+                                with open(img_filename, 'wb') as img_file:
+                                    img_file.write(img_data)
+                            '''
+                            other_colors.append({
+                                "name": c_name,
+                                "price": c_price,
+                                #"img": c_img
+                            })
+
+                    colors.append({
+                        "picked_color": first_color,
+                        "other_colors": other_colors
                     })
-
-                colors.append({
-                    "picked_color": first_color,
-                    "other_colors": other_colors
-                })
 
             prod_count += 1
             products.append({
@@ -470,9 +498,11 @@ def scrape_category_patterns(category_url):
             })
             #if (prod_count == 1):
             #   break
-            print("Produkt numer: ")
+            print("Produkt numer zebrany: ")
             print(prod_count)
         #break #testing with one product
+        print("Strona numer zakończona: ")
+        print(page)
         page += 1
 
     return products, prod_count
@@ -501,7 +531,6 @@ def scrape_all_categories():
     print("Scrapowanie zakończone.")
     print("Ilość produktów:")
     print(products_count)
-
 categories = scrape_categories()
 if categories:
     with open("../scraper_results/categories.json", "w", encoding="utf-8") as f:
