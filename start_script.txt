@@ -1,5 +1,5 @@
 Krok 1:
-chmod +x dump_sql.sh
+chmod +x backup.sh
 
 Krok 2:
-./dump_sql.sh
+./backup.sh
