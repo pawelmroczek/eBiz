@@ -5,7 +5,6 @@ CONTAINER_NAME="presta-database"
 DATABASE_NAME="presta"
 ROOT_PASSWORD="root"
 OUTPUT_PATH="./dumps"
-TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 OUTPUT_FILE="${OUTPUT_PATH}/dump.sql"
 
 # Sprawdzenie, czy kontener działa
@@ -20,7 +19,7 @@ echo "Znaleziono kontener: $CONTAINER_NAME"
 mkdir -p "$OUTPUT_PATH"
 
 # Wykonywanie zrzutu bazy danych
-docker exec -i "$CONTAINER_NAME" mysqldump -u root -p"$ROOT_PASSWORD" "$DATABASE_NAME" > "$OUTPUT_FILE"
+docker compose exec "$CONTAINER_NAME" mariadb-dump -u root -p"$ROOT_PASSWORD" "$DATABASE_NAME" > "$OUTPUT_FILE"
 
 if [ $? -eq 0 ]; then
   echo "Zrzut bazy danych został zapisany w: $OUTPUT_FILE"
