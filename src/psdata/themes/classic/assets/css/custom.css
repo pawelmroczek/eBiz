@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-html, body{
+html,
+body {
     font-family: 'Quicksand', sans-serif !important;
     font-family: 'Quicksand', sans-serif !important;
 }
@@ -18,13 +19,52 @@ html, body{
     line-height: 1.25rem;
 }
 
-.banner span{
+.banner span {
     color: rgb(255 255 255);
     font-weight: 700;
 }
 
-.banner a{
+.banner a {
     color: rgb(255 255 255) !important;
     text-decoration-line: underline;
     margin-left: 1rem;
+}
+
+.navbar {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.navbar__logo {
+    width: 25%;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 33%; */
+}
+
+.navbar__rightContainer {
+    gap: 1rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ktoś kto to stylował podstawowy szablon byl niesamowity */
+.navbar::after {
+    display: none;
+}
+
+
+/* Sekcja nadpisywania zmian */
+#header {
+    box-shadow: 0 0 #0000 !important;
 }

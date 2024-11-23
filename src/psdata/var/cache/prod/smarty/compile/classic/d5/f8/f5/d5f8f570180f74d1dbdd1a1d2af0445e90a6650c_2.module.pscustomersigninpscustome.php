@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-23 16:18:58
+/* Smarty version 3.1.48, created on 2024-11-23 16:54:20
   from 'module:pscustomersigninpscustome' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6741f262f2e0d3_81623283',
+  'unifunc' => 'content_6741faac1b45a6_61710947',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd5f8f570180f74d1dbdd1a1d2af0445e90a6650c' => 
     array (
       0 => 'module:pscustomersigninpscustome',
-      1 => 1732293329,
+      1 => 1732376690,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6741f262f2e0d3_81623283 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6741faac1b45a6_61710947 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="_desktop_user_info">
   <div class="user-info">
     <?php if ($_smarty_tpl->tpl_vars['logged']->value) {?>
@@ -55,7 +55,8 @@ function content_6741f262f2e0d3_81623283 (Smarty_Internal_Template $_smarty_tpl)
         rel="nofollow"
       >
         <i class="material-icons">&#xE7FF;</i>
-        <span class="hidden-sm-down"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Sign in','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
+        <!-- tu mozna wyswietlic napis do zalogowania sie -->
+        <span class="hidden-sm-down"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
 </span>
       </a>
     <?php }?>

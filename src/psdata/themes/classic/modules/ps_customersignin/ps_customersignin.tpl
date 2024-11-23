@@ -49,7 +49,8 @@
         rel="nofollow"
       >
         <i class="material-icons">&#xE7FF;</i>
-        <span class="hidden-sm-down">{l s='Sign in' d='Shop.Theme.Actions'}</span>
+        <!-- tu mozna wyswietlic napis do zalogowania sie -->
+        <span class="hidden-sm-down">{l s='' d='Shop.Theme.Actions'}</span>
       </a>
     {/if}
   </div>

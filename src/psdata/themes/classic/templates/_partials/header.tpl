@@ -1,40 +1,40 @@
 {**
- * Copyright since 2007 PrestaShop SA and Contributors
- * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
- * that is bundled with this package in the file LICENSE.md.
- * It is also available through the world-wide-web at this URL:
- * https://opensource.org/licenses/AFL-3.0
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@prestashop.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
- * versions in the future. If you wish to customize PrestaShop for your
- * needs please refer to https://devdocs.prestashop.com/ for more information.
- *
- * @author    PrestaShop SA and Contributors <contact@prestashop.com>
- * @copyright Since 2007 PrestaShop SA and Contributors
- * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
- *}
-{block name='header_banner'}
+* Copyright since 2007 PrestaShop SA and Contributors
+* PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License 3.0 (AFL-3.0)
+* that is bundled with this package in the file LICENSE.md.
+* It is also available through the world-wide-web at this URL:
+* https://opensource.org/licenses/AFL-3.0
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to https://devdocs.prestashop.com/ for more information.
+*
+* @author PrestaShop SA and Contributors <contact@prestashop.com>
+  * @copyright Since 2007 PrestaShop SA and Contributors
+  * @license https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
+  *}
+  {block name='header_banner'}
   <div class="header-banner">
     {hook h='displayBanner'}
     <div class="banner">
       <span class="font-bold max-w-xs lg:max-w-fit">
-                      The Big Yarn Sale, Up to 60% Off Favorite Yarns.
+        The Big Yarn Sale, Up to 60% Off Favorite Yarns.
       </span>
       <a class="underline sm:ml-4" href="/sale/wc1124-the-big-yarn-sale?id=50110806">Shop Now! »</a>
     </div>
   </div>
-{/block}
+  {/block}
 
-{block name='header_nav'}
+  {*block name='header_nav'}
   <nav class="header-nav">
     <div class="container">
       <div class="row">
@@ -43,7 +43,7 @@
             {hook h='displayNav1'}
           </div>
           <div class="col-md-7 right-nav">
-              {hook h='displayNav2'}
+            {hook h='displayNav2'}
           </div>
         </div>
         <div class="hidden-md-up text-sm-center mobile">
@@ -58,27 +58,30 @@
       </div>
     </div>
   </nav>
-{/block}
+  {/block*}
 
-{block name='header_top'}
-  <div class="header-top">
-    <div class="container">
-       <div class="row">
-        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
-          {if $shop.logo_details}
-            {if $page.page_name == 'index'}
-              <h1>
-                {renderLogo}
-              </h1>
-            {else}
+  {block name='header_top'}
+  <div class="">
+    <div class="navbar">
+      <div class="navbar__logo" id="_desktop_logo">
+        {if $shop.logo_details}
+          {if $page.page_name == 'index'}
+            <h1>
               {renderLogo}
-            {/if}
+            </h1>
+            {else}
+            {renderLogo}
           {/if}
-        </div>
-        <div class="header-top-right col-md-10 col-sm-12 position-static">
-          {hook h='displayTop'}
-        </div>
+        {/if}
       </div>
+      <div class="navbar__menu">
+        {widget name="ps_mainmenu"}
+      </div>
+      <div class=" navbar__rightContainer">
+        {widget name='ps_searchbar'}
+        {hook h='displayNav2'}
+      </div>
+      <!-- tu ponizej na mobilke nie zmieniac -->
       <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
         <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
         <div class="js-top-menu-bottom">
@@ -90,4 +93,4 @@
     </div>
   </div>
   {hook h='displayNavFullWidth'}
-{/block}
+  {/block}
