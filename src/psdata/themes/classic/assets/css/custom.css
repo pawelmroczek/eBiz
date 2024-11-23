@@ -4,3 +4,27 @@ html, body{
     font-family: 'Quicksand', sans-serif !important;
     font-family: 'Quicksand', sans-serif !important;
 }
+
+.banner {
+    background-color: #5075d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.banner span{
+    color: rgb(255 255 255);
+    font-weight: 700;
+}
+
+.banner a{
+    color: rgb(255 255 255) !important;
+    text-decoration-line: underline;
+    margin-left: 1rem;
+}
