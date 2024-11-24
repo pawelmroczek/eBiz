@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-24 13:50:53
+/* Smarty version 3.1.48, created on 2024-11-24 14:17:27
   from 'module:psfeaturedproductsviewste' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6743212d8a8284_66102135',
+  'unifunc' => 'content_67432767d7b1e0_35750570',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_6743212d8a8284_66102135 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67432767d7b1e0_35750570 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
     <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Popular Products','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>

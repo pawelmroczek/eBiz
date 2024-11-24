@@ -55,7 +55,7 @@
         </div>
       </div>
       {/block}
-      
+
       <header id="header">
         {block name='header'}
           {include file='_partials/header.tpl'}
@@ -68,7 +68,7 @@
         {/block}
 
         {hook h="displayWrapperTop"}
-        <div class="container">
+        <div >
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}
           {/block}

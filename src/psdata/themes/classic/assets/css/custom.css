@@ -66,10 +66,27 @@ body {
     display: none;
 }
 
+.slider__link{
+    display: block;
+    width: 100%;
+}
+
+.slider__figure{
+    width: 100%;
+}
+
+.carousel .carousel-inner{
+    height: auto !important;
+}
+
 
 /* Sekcja nadpisywania zmian */
 #header {
     box-shadow: 0 0 #0000 !important;
     position: sticky;
     top: 0;
+}
+
+#wrapper {
+    padding-top: 0;
 }
