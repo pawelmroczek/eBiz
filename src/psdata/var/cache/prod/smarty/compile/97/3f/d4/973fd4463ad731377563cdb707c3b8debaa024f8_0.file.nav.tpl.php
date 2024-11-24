@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-21 19:31:32
+/* Smarty version 3.1.48, created on 2024-11-24 16:12:02
   from '/var/www/html/admin480aoei95/themes/default/template/nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_673f7c84970217_18191604',
+  'unifunc' => 'content_67434242cf2b10_71884364',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '973fd4463ad731377563cdb707c3b8debaa024f8' => 
     array (
       0 => '/var/www/html/admin480aoei95/themes/default/template/nav.tpl',
-      1 => 1702485415,
+      1 => 1732226196,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673f7c84970217_18191604 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67434242cf2b10_71884364 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="nav-bar" role="navigation" id="nav-sidebar">
 	<span class="menu-collapse" data-toggle-url="<?php echo $_smarty_tpl->tpl_vars['toggle_navigation_url']->value;?>
 ">
