@@ -22,17 +22,7 @@
   * @copyright Since 2007 PrestaShop SA and Contributors
   * @license https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
   *}
-  {block name='header_banner'}
-  <div class="header-banner">
-    {hook h='displayBanner'}
-    <div class="banner">
-      <span class="font-bold max-w-xs lg:max-w-fit">
-        The Big Yarn Sale, Up to 60% Off Favorite Yarns.
-      </span>
-      <a class="underline sm:ml-4" href="/sale/wc1124-the-big-yarn-sale?id=50110806">Shop Now! »</a>
-    </div>
-  </div>
-  {/block}
+ 
 
   {*block name='header_nav'}
   <nav class="header-nav">
@@ -61,7 +51,6 @@
   {/block*}
 
   {block name='header_top'}
-  <div class="">
     <div class="navbar">
       <div class="navbar__logo" id="_desktop_logo">
         {if $shop.logo_details}
@@ -91,6 +80,5 @@
         </div>
       </div>
     </div>
-  </div>
   {hook h='displayNavFullWidth'}
   {/block}

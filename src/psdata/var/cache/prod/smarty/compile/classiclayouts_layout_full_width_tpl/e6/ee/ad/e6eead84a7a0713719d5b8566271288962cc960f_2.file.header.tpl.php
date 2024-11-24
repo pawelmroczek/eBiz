@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-23 17:26:15
+/* Smarty version 3.1.48, created on 2024-11-24 13:50:54
   from '/var/www/html/themes/classic/templates/_partials/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67420227535b83_92337796',
+  'unifunc' => 'content_6743212e371ae6_78931248',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6eead84a7a0713719d5b8566271288962cc960f' => 
     array (
       0 => '/var/www/html/themes/classic/templates/_partials/header.tpl',
-      1 => 1732376523,
+      1 => 1732452643,
       2 => 'file',
     ),
   ),
@@ -20,58 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67420227535b83_92337796 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6743212e371ae6_78931248 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
-  <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_182485511667420227532391_85799109', 'header_banner');
-?>
-
+ 
 
   
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_39187497567420227533112_70861501', 'header_top');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_20202461916743212e36eca1_60486530', 'header_top');
 }
-/* {block 'header_banner'} */
-class Block_182485511667420227532391_85799109 extends Smarty_Internal_Block
-{
-public $subBlocks = array (
-  'header_banner' => 
-  array (
-    0 => 'Block_182485511667420227532391_85799109',
-  ),
-);
-public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
-?>
-
-  <div class="header-banner">
-    <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayBanner'),$_smarty_tpl ) );?>
-
-    <div class="banner">
-      <span class="font-bold max-w-xs lg:max-w-fit">
-        The Big Yarn Sale, Up to 60% Off Favorite Yarns.
-      </span>
-      <a class="underline sm:ml-4" href="/sale/wc1124-the-big-yarn-sale?id=50110806">Shop Now! »</a>
-    </div>
-  </div>
-  <?php
-}
-}
-/* {/block 'header_banner'} */
 /* {block 'header_top'} */
-class Block_39187497567420227533112_70861501 extends Smarty_Internal_Block
+class Block_20202461916743212e36eca1_60486530 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_top' => 
   array (
-    0 => 'Block_39187497567420227533112_70861501',
+    0 => 'Block_20202461916743212e36eca1_60486530',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-  <div class="">
     <div class="navbar">
       <div class="navbar__logo" id="_desktop_logo">
         <?php if ($_smarty_tpl->tpl_vars['shop']->value['logo_details']) {?>
@@ -106,7 +76,6 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
         </div>
       </div>
     </div>
-  </div>
   <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayNavFullWidth'),$_smarty_tpl ) );?>
 
   <?php

@@ -44,7 +44,18 @@
       {block name='product_activation'}
         {include file='catalog/_partials/product-activation.tpl'}
       {/block}
-
+      {block name='header_banner'}
+      <div class="header-banner">
+        {hook h='displayBanner'}
+        <div class="banner">
+          <span class="font-bold max-w-xs lg:max-w-fit">
+            The Big Yarn Sale, Up to 60% Off Favorite Yarns.
+          </span>
+          <a class="underline sm:ml-4" href="/sale/wc1124-the-big-yarn-sale?id=50110806">Shop Now! »</a>
+        </div>
+      </div>
+      {/block}
+      
       <header id="header">
         {block name='header'}
           {include file='_partials/header.tpl'}
