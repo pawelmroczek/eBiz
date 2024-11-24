@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-24 14:17:25
+/* Smarty version 3.1.48, created on 2024-11-24 14:26:27
   from '/var/www/html/admin284wsmgoi/themes/default/template/helpers/modules_list/modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_674327652c9ed9_95712522',
+  'unifunc' => 'content_674329838b01c1_78697238',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_674327652c9ed9_95712522 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674329838b01c1_78697238 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="modal fade" id="modules_list_container">
 	<div class="modal-dialog">
 		<div class="modal-content">
