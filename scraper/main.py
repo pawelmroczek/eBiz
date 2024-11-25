@@ -758,7 +758,7 @@ def scrape_atributes(category):
         })
 
     os.makedirs(f"../scraper_results/categories/{category['name']}", exist_ok=True)
-    with open(f"../scraper_results/categories/{category['name']}/atributtes.json", "w", encoding="utf-8") as f:
+    with open(f"../scraper_results/categories/{category['name']}/attributes.json", "w", encoding="utf-8") as f:
         json.dump(all_data, f, ensure_ascii=False, indent=4)
 
 
@@ -772,8 +772,7 @@ def scrape_all_categories():
         print(f"Scrapowanie kategorii: {category['name']}")
         for subcategory in category['subcategories']:
             if index == len(categories) - 1:
-                break
-                #all_data[subcategory['name']], count = scrape_category_patterns(subcategory['url'])
+                all_data[subcategory['name']], count = scrape_category_patterns(subcategory['url'])
             elif index == 0:
                 all_data[subcategory['name']], count = scrape_category_yarn(subcategory['url'])
             else:

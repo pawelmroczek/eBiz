@@ -1,3 +1,5 @@
 api_url_categorires = "http://localhost:8080/api/categories"
+api_url_products = "http://localhost:8080/api/products"
+api_url = "http://localhost:8080/api/"
 api_key = "Z8KSZ4Z48Q91ZRRXA8LDSIEJE12SE9I5"
 password = "admin1234"
