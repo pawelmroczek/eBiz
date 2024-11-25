@@ -25,8 +25,8 @@
 <div class="col-md-6 links">
   <div class="row">
   {foreach $linkBlocks as $linkBlock}
-    <div class="col-md-6 wrapper">
-      <p class="h3 hidden-sm-down">{$linkBlock.title}</p>
+    <div class="col-md-6 wrapper ">
+      <p class="h3 hidden-sm-down footer__title">{$linkBlock.title}</p>
       <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_{$linkBlock.id}" data-toggle="collapse">
         <span class="h3">{$linkBlock.title}</span>
         <span class="float-xs-right">

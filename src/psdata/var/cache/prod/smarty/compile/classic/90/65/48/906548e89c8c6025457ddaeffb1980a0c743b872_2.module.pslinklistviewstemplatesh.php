@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-25 18:30:45
+/* Smarty version 3.1.48, created on 2024-11-25 19:43:30
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6744b445760185_03456244',
+  'unifunc' => 'content_6744c552267c35_70244109',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '906548e89c8c6025457ddaeffb1980a0c743b872' => 
     array (
       0 => 'module:pslinklistviewstemplatesh',
-      1 => 1732293329,
+      1 => 1732559835,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6744b445760185_03456244 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6744c552267c35_70244109 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-md-6 links">
   <div class="row">
   <?php
@@ -29,8 +29,8 @@ $_smarty_tpl->tpl_vars['linkBlock']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['linkBlock']->value) {
 $_smarty_tpl->tpl_vars['linkBlock']->do_else = false;
 ?>
-    <div class="col-md-6 wrapper">
-      <p class="h3 hidden-sm-down"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['linkBlock']->value['title'], ENT_QUOTES, 'UTF-8');?>
+    <div class="col-md-6 wrapper ">
+      <p class="h3 hidden-sm-down footer__title"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['linkBlock']->value['title'], ENT_QUOTES, 'UTF-8');?>
 </p>
       <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['linkBlock']->value['id'], ENT_QUOTES, 'UTF-8');?>
 " data-toggle="collapse">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-25 18:30:45
+/* Smarty version 3.1.48, created on 2024-11-25 19:43:30
   from 'module:pssocialfollowpssocialfol' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6744b4456f1f28_89531213',
+  'unifunc' => 'content_6744c552209644_89973778',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '80ac9ddb06fe7b43ffdd2f5cd1185536480d2577' => 
     array (
       0 => 'module:pssocialfollowpssocialfol',
-      1 => 1732293329,
+      1 => 1732559030,
       2 => 'module',
     ),
   ),
@@ -20,29 +20,29 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6744b4456f1f28_89531213 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6744c552209644_89973778 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18063549876744b4456f0469_12219613', 'block_social');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_3267827576744c552207805_40016599', 'block_social');
 ?>
 
 <?php }
 /* {block 'block_social'} */
-class Block_18063549876744b4456f0469_12219613 extends Smarty_Internal_Block
+class Block_3267827576744c552207805_40016599 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'block_social' => 
   array (
-    0 => 'Block_18063549876744b4456f0469_12219613',
+    0 => 'Block_3267827576744c552207805_40016599',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-  <div class="block-social col-lg-4 col-md-12 col-sm-12">
+  <!-- <div class="block-social col-lg-4 col-md-12 col-sm-12">
     <ul>
       <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['social_links']->value, 'social_link');
@@ -58,7 +58,7 @@ $_smarty_tpl->tpl_vars['social_link']->do_else = false;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     </ul>
-  </div>
+  </div> -->
 <?php
 }
 }

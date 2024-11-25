@@ -23,9 +23,9 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
-<div class="block_newsletter" id="blockEmailSubscription_{$hookName}">
+<div class="block_newsletter newsletter_container" id="blockEmailSubscription_{$hookName}">
   <form action="{$urls.current_url}#blockEmailSubscription_{$hookName}" method="post">
-    <div class="row">
+    <div class="row newsletterContainer">
       <p id="block-newsletter-label" class="col-xs-12">{l s='Get our latest news and special sales' d='Shop.Theme.Global'}</p>
       <div class="col-xs-12 mb-1">
         <input

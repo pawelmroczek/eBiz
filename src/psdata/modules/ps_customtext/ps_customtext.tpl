@@ -24,5 +24,15 @@
  *}
 
 <div id="custom-text">
-  {$cms_infos.text nofilter}
+  {*$cms_infos.text nofilter*}
+  <div class="aboutUsBlock">
+    <img src="https://cdn.buttercms.com/OuoTaafQdOq2sKwIATQW" alt="About Us">
+    <h4>About Us</h4>
+    <p>
+      Crochet.com is here to support crocheters – new and experienced. We have everything you need!
+    </p>
+    <div class="popularProducts__button">
+      LEARN MORE
+    </div>
+  </div>
 </div>
