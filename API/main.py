@@ -12,8 +12,17 @@ headers = {
 
 auth = HTTPBasicAuth(api_key, password)
 
+def delete_category(category_id):
+    url = f"{api_url_categorires}/{category_id}"
+    response = requests.delete(url, auth=auth)
+
+    if response.status_code == 200:
+        print(f"Kategoria o ID {category_id} została usunięta.")
+    else:
+        print(f"Błąd podczas usuwania kategorii o ID {category_id}: {response.status_code} - {response.text}")
+
 def get_all_categories():
-    response = requests.get(api_url, auth=auth, headers={"Accept": "application/xml"})
+    response = requests.get(api_url_categorires, auth=auth, headers={"Accept": "application/xml"})
 
     if response.status_code == 200:
         try:
@@ -71,7 +80,7 @@ def create_category(name_newcategory, parent_id, parent_name=""):
     print(xml_data)
 
     # Wysyłanie POST z XML do API
-    response = requests.post(api_url, auth=auth, headers={"Content-Type": "application/xml"}, data=xml_data)
+    response = requests.post(api_url_categorires, auth=auth, headers={"Content-Type": "application/xml"}, data=xml_data)
 
     if response.status_code == 201:
         print(f"Kategoria {name_newcategory} została pomyślnie utworzona.")
@@ -81,7 +90,7 @@ def create_category(name_newcategory, parent_id, parent_name=""):
 
 with open("../scraper_results/categories.json", "r", encoding="utf-8") as file:
     categories_data = json.load(file)
-
+'''
 for category in categories_data["categories"]:
     main_category_id = create_category(category["name"], 2)
     main_category_id = ET.fromstring(main_category_id)
@@ -92,3 +101,10 @@ for category in categories_data["categories"]:
     if main_category_id:
         for subcategory in category.get("subcategories", []):
             create_category(subcategory["name"], main_category_id, category['name'])
+'''
+print(get_all_categories())
+'''
+for i in range(3, 10):
+    delete_category(i)
+'''
+print(get_all_categories())
