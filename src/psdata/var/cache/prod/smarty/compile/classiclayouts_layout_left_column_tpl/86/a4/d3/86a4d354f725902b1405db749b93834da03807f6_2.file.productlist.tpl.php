@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-21 21:42:08
+/* Smarty version 3.1.48, created on 2024-11-25 17:57:07
   from '/var/www/html/themes/classic/templates/catalog/_partials/productlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_673f9b20b9f422_53061017',
+  'unifunc' => 'content_6744ac636c0431_59954132',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '86a4d354f725902b1405db749b93834da03807f6' => 
     array (
       0 => '/var/www/html/themes/classic/templates/catalog/_partials/productlist.tpl',
-      1 => 1702485415,
+      1 => 1732293329,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_673f9b20b9f422_53061017 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6744ac636c0431_59954132 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "productClasses", null);
 if (!empty($_smarty_tpl->tpl_vars['productClass']->value)) {
 echo htmlspecialchars($_smarty_tpl->tpl_vars['productClass']->value, ENT_QUOTES, 'UTF-8');

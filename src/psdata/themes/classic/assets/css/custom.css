@@ -137,6 +137,74 @@ body {
     align-items: center;
 }
 
+.popularProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+.popularProducts__header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.popularProducts__header-link{
+    text-decoration-line: underline !important;
+    color: rgb(0 0 0) !important;
+    text-transform: uppercase;
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+}
+
+.popularProducts__header{
+    text-transform: none !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.popularProducts__price{
+    color: rgb(107 114 128) !important;
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+    font-weight: 400 !important;
+}
+
+.popularProducts__button{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    background-color: rgb(31 41 55);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    color: rgb(255 255 255);
+    font-weight: 600;
+}
+
+.popularProducts__short {
+    color: rgb(0 0 0) !important;
+    font-weight: 500 !important;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.popularProducts__finalPrice{
+    color: rgb(190, 40, 40) !important;
+    font-weight: 600 !important;
+}
+
+.popularProducts__itemName{
+    color: rgb(0 0 0) !important;
+}
 
 /* Sekcja nadpisywania zmian */
 #header {
@@ -145,6 +213,14 @@ body {
     top: 0;
 }
 
+
+
 #wrapper {
     padding-top: 0;
+    background-color: white !important;
+}
+
+.product-miniature .product-title a{
+    color: rgb(0 0 0) !important;
+    font-weight: 600 !important;
 }
