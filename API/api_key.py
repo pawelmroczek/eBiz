@@ -1,0 +1,3 @@
+api_url = "http://localhost:8080/api/categories"
+api_key = "Z8KSZ4Z48Q91ZRRXA8LDSIEJE12SE9I5"
+password = "admin1234"

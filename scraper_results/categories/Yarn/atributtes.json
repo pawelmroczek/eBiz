@@ -1,0 +1,78 @@
+[
+    {
+        "subcategory": "New Colors",
+        "atributtes": [
+            {
+                "name": "Fiber Content",
+                "atributes": [
+                    "Acrylic",
+                    "Alpaca",
+                    "Cashmere",
+                    "Cotton",
+                    "Linen",
+                    "Merino",
+                    "Mohair",
+                    "Natural",
+                    "Nylon",
+                    "Paper",
+                    "Polyester",
+                    "Seaqual",
+                    "Silk",
+                    "Wool"
+                ]
+            },
+            {
+                "name": "Yarn Weight",
+                "atributes": [
+                    "Lace",
+                    "Fingering",
+                    "Sport",
+                    "DK",
+                    "Worsted",
+                    "Aran/Heavy Worsted",
+                    "Bulky",
+                    "Super Bulky",
+                    "Jumbo"
+                ]
+            }
+        ]
+    },
+    {
+        "subcategory": "View All",
+        "atributtes": [
+            {
+                "name": "Fiber Content",
+                "atributes": [
+                    "Acrylic",
+                    "Alpaca",
+                    "Cashmere",
+                    "Cotton",
+                    "Linen",
+                    "Merino",
+                    "Mohair",
+                    "Natural",
+                    "Nylon",
+                    "Paper",
+                    "Polyester",
+                    "Seaqual",
+                    "Silk",
+                    "Wool"
+                ]
+            },
+            {
+                "name": "Yarn Weight",
+                "atributes": [
+                    "Lace",
+                    "Fingering",
+                    "Sport",
+                    "DK",
+                    "Worsted",
+                    "Aran/Heavy Worsted",
+                    "Bulky",
+                    "Super Bulky",
+                    "Jumbo"
+                ]
+            }
+        ]
+    }
+]
