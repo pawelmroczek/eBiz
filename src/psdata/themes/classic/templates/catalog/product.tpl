@@ -50,9 +50,8 @@
 
   <section id="main">
     <meta content="{$product.url}">
-
-    <div class="row product-container js-product-container">
-      <div class="col-md-6">
+    <div class="product-container js-product-container">
+      <div class="productPage__container">
         {block name='page_content_container'}
           <section class="page-content" id="content">
             {block name='page_content'}
@@ -70,10 +69,10 @@
           </section>
         {/block}
         </div>
-        <div class="col-md-6">
+        <div class="productPage__container">
           {block name='page_header_container'}
             {block name='page_header'}
-              <h1 class="h1">{block name='page_title'}{$product.name}{/block}</h1>
+              <h1 class="h1 productPage__header">{block name='page_title'}{$product.name}{/block}</h1>
             {/block}
           {/block}
           {block name='product_prices'}

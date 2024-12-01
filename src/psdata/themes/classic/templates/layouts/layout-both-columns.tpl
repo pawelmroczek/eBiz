@@ -68,7 +68,7 @@
         {/block}
 
         {hook h="displayWrapperTop"}
-        <div>
+        <div class="my__container">
           
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}

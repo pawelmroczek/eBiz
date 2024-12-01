@@ -23,6 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 <nav data-depth="{$breadcrumb.count}" class="breadcrumb hidden-sm-down">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4 icon__arrow-left breadcrump__icon" role="img" aria-labelledby="lucide-arrow-left-title-674c6952918d0"><title id="lucide-arrow-left-title-674c6952918d0">Arrow-left Icon</title><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
   <ol>
     {block name='breadcrumb'}
       {foreach from=$breadcrumb.links item=path name=breadcrumb}

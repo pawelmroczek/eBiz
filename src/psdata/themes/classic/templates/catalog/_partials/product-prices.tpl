@@ -28,7 +28,7 @@
       {if $product.has_discount}
         <div class="product-discount">
           {hook h='displayProductPriceBlock' product=$product type="old_price"}
-          <span class="regular-price">{$product.regular_price}</span>
+          <span class="regular-price productPage__prices">{$product.regular_price}</span>
         </div>
       {/if}
     {/block}
@@ -38,7 +38,7 @@
         class="product-price h5 {if $product.has_discount}has-discount{/if}">
 
         <div class="current-price">
-          <span class='current-price-value' content="{$product.rounded_display_price}">
+          <span class='current-price-value productPage__prices productPage__prices--current' content="{$product.rounded_display_price}">
             {capture name='custom_price'}{hook h='displayProductPriceBlock' product=$product type='custom_price' hook_origin='product_sheet'}{/capture}
             {if '' !== $smarty.capture.custom_price}
               {$smarty.capture.custom_price nofilter}
@@ -49,9 +49,9 @@
 
           {if $product.has_discount}
             {if $product.discount_type === 'percentage'}
-              <span class="discount discount-percentage">{l s='Save %percentage%' d='Shop.Theme.Catalog' sprintf=['%percentage%' => $product.discount_percentage_absolute]}</span>
+              <span class="discount discount-percentage productPage__prices productPage__prices--box">{$product.discount_percentage_absolute} off</span>
             {else}
-              <span class="discount discount-amount">
+              <span class="discount discount-amount productPage__prices">
                   {l s='Save %amount%' d='Shop.Theme.Catalog' sprintf=['%amount%' => $product.discount_to_display]}
               </span>
             {/if}
@@ -90,7 +90,7 @@
 
     {hook h='displayProductPriceBlock' product=$product type="weight" hook_origin='product_sheet'}
 
-    <div class="tax-shipping-delivery-label">
+    <div class="tax-shipping-delivery-label productPage__prices">
       {if !$configuration.taxes_enabled}
         {l s='No tax' d='Shop.Theme.Catalog'}
       {elseif $configuration.display_taxes_label}
