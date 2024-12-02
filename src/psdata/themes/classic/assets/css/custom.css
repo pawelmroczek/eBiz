@@ -362,26 +362,35 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 0.5rem;
     margin-bottom: 0.75rem;
 }
 
 .productPage__prices{
     font-size: 1.5rem;
     line-height: 2rem;
+    font-weight: 400 !important;
+    color:rgb(107 114 128) ;
 }
 
 .productPage__prices--current{
     color: rgb(185 28 28);
+    font-weight: 500 !important;
 }
 
 .productPage__prices--box{
+    margin-right: 0.375rem;
     background: white !important;
+    font-size: 0.75rem !important;
+    line-height: 1rem;
+    border-radius: 0.125rem;
     color: rgb(185 28 28) !important;
+    text-transform: none !important;
     border: 1px solid rgb(185 28 28);
+    font-weight: 400 !important;
 }
 
 .product-prices div{
+   
     margin-bottom: 0 !important;
     display: flex;
     align-items: center;
@@ -480,4 +489,95 @@ a {
 
 #product #content {
     max-width: none;
+}
+
+.product-prices .tax-shipping-delivery-label{
+   margin-left: 0.5rem;
+}
+
+label .color, .variant-links .color, .custom-checkbox input[type="checkbox"]+span.color{
+    width:50px;
+    height:50px;
+    border-radius: 9999px;
+}
+
+.input-color:checked+span{
+    border: 2px solid #f24c36;
+}
+
+.product-variants-item{
+    margin-top: 0px !important;
+    border-top: 1px solid #e2e6eb;
+    padding-top: 1.25rem;
+} 
+
+.product-minimal-quantity{
+    margin-bottom: 0px !important;
+}
+
+.product-quantity{
+    justify-content: space-between;
+}
+
+
+.productPage__button{
+    flex-grow: 1;
+}
+
+.productPage__button button{
+    width: 100%;
+}
+
+.clearfix::after{
+    display: none;
+}
+
+.btn-primary{
+    background: #f24c36;
+}
+
+.btn-primary:hover{
+    background: #fc3217 !important;
+}
+
+.product-quantity .qty, .product-quantity .add{
+    margin-bottom: 0px;
+}
+
+.wishlist-button-add{
+    box-shadow: none !important;
+}
+
+.bootstrap-touchspin input.form-control, .bootstrap-touchspin input.input-group{
+    border:none !important;
+}
+
+.bootstrap-touchspin .btn-touchspin{
+    border: none !important;
+}
+
+.bootstrap-touchspin{
+    border: 1px solid #c9cccf;
+    border-radius: 0.25rem;
+}
+
+.product-quantity #quantity_wanted{
+    background-color: #37415100;
+}
+
+.bootstrap-touchspin .btn-touchspin{
+    background-color: #37415100;
+}
+
+.tabs .nav-tabs .nav-link.active{
+    color: #f24c36 !important;
+    border-bottom: 2px solid #f24c36;
+}
+
+.tabs .nav-tabs .nav-link:hover{
+    border-bottom: 3px solid #f24c36 !important;
+}
+
+.subcategory-name{
+    color:black !important;
 }

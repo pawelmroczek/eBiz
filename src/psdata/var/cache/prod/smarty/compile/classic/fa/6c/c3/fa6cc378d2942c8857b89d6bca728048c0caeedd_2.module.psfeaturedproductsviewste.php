@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-01 15:39:35
+/* Smarty version 3.1.48, created on 2024-12-02 16:21:07
   from 'module:psfeaturedproductsviewste' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_674c7527332361_50711582',
+  'unifunc' => 'content_674dd063a7f308_15042214',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_674c7527332361_50711582 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674dd063a7f308_15042214 (Smarty_Internal_Template $_smarty_tpl) {
 ?>  <section class="featured-products clearfix">
     <div class="tiles__container">
       <div class="tile">
