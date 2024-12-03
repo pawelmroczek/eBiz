@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-02 16:22:26
+/* Smarty version 3.1.48, created on 2024-12-03 16:38:22
   from 'module:psfacetedsearchpsfaceteds' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_674dd0b2c74665_39791068',
+  'unifunc' => 'content_674f25eec50678_22177067',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '81a1040ed0eeab6f58198f9907167c7fced628c5' => 
     array (
       0 => 'module:psfacetedsearchpsfaceteds',
-      1 => 1732293329,
+      1 => 1733158765,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_674dd0b2c74665_39791068 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674f25eec50678_22177067 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['listing']->value['rendered_facets']))) {?>
 <div id="search_filters_wrapper" class="hidden-sm-down">
   <div id="search_filter_controls" class="hidden-md-up">
@@ -34,6 +34,21 @@ if ((isset($_smarty_tpl->tpl_vars['listing']->value['rendered_facets']))) {?>
   <?php echo $_smarty_tpl->tpl_vars['listing']->value['rendered_facets'];?>
 
 </div>
-<?php }
-}
+<?php }?>
+<!-- <button id="toggle_filters" class="btn btn-primary">
+  Toggle Filters
+</button>
+<?php echo '<script'; ?>
+>
+  // document.getElementById('serach_filters_wrapper').style.display = 'none';
+  document.getElementById('toggle_filters').addEventListener('click', function() {
+    var filtersWrapper = document.getElementById('search_filters_wrapper');
+    if (filtersWrapper.style.display === 'block' || filtersWrapper.style.display === '') {
+      filtersWrapper.style.display = 'none';
+    } else {
+      filtersWrapper.style.display = 'block';
+    }
+  });
+<?php echo '</script'; ?>
+> --><?php }
 }

@@ -110,9 +110,11 @@
             </div>
            <!-- tu jest do zmiany krotki opis -->
             <div id="product-description-short" class="popularProducts__short">{$product.description_short|strip_tags nofilter}</div>
+            {if $page.page_name == 'index'}
             <div class="popularProducts__button">
               SHOP NOW
             </div>
+            {/if}
           {/if}
         {/block}
 
