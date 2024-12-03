@@ -195,33 +195,9 @@ def create_attribute_value(name, id_attribute):
 
 def create_attribute_values_loop(colors, id_attribute):
     for color in colors:
-        create_attribute_value(color, id_attribute)
+        if "pack" not in color:
+            create_attribute_value(color, id_attribute)
+        elif "Pack" not in color:
+            create_attribute_value(color, id_attribute)
 
-#Main
-root_f_fiber_content = ET.fromstring(create_feature("Fiber Content").text)
-root_f_yarn_weight = ET.fromstring(create_feature("Yarn Weight").text)
-root_colors = ET.fromstring(create_attribute_group("Kolory", "Kolor", is_color_group=False).text)
-
-features_fiber_content_id = root_f_fiber_content.find(".//id").text
-features_yarn_weight_id = root_f_yarn_weight.find(".//id").text
-colors_id = root_colors.find(".//id").text
-
-
-with open("../scraper_results/categories/Yarn/attributes.json", "r", encoding="utf-8") as file:
-    attributes_data = json.load(file)
-
-fiber_content = get_unique_values(attributes_data, "Fiber Content")
-yarn_weight = get_unique_values(attributes_data, "Yarn Weight")
-
-create_featrue_values_loop(fiber_content, features_fiber_content_id)
-create_featrue_values_loop(yarn_weight, features_yarn_weight_id)
-
-with open("../scraper_results/categories/Yarn/products.json", "r", encoding="utf-8") as file:
-    yarn_data = json.load(file)
-
-colors_unique = get_unique_colors(yarn_data)
-create_attribute_values_loop(colors_unique, colors_id)
-#TODO
-#Dodawanie options dla pattern, zastanowić się czy dla wszystkich czy wybrać 5 konkretnych
-#Dodawanie produktów, zdjeć, szukać tam id features and options getem po nazwie w yarn
 
