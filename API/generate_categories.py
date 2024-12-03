@@ -69,10 +69,27 @@ def delete_all_caregories():
         category_id = category.get("id")
         if category_id is not None and int(category_id) > 2:
             delete_category(category_id)
+
+
 def delete_all_products():
     product_ids = get_all_products()
+    last_deleted_id = None
+
     for product_id in product_ids:
         delete_product(product_id)
+        last_deleted_id = product_id
+
+    return last_deleted_id
+
+def get_last_product_id():
+    product_ids = get_all_products()
+    last_id = None
+
+    for product_id in product_ids:
+        last_id = product_id
+
+    return last_id
+
 
 def generate_link_rewrite(name, parent_name):
 

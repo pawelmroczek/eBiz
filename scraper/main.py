@@ -772,7 +772,8 @@ def scrape_all_categories():
         print(f"Scrapowanie kategorii: {category['name']}")
         for subcategory in category['subcategories']:
             if index == len(categories) - 1:
-                all_data[subcategory['name']], count = scrape_category_patterns(subcategory['url'])
+                break
+                #all_data[subcategory['name']], count = scrape_category_patterns(subcategory['url'])
             elif index == 0:
                 all_data[subcategory['name']], count = scrape_category_yarn(subcategory['url'])
             else:
