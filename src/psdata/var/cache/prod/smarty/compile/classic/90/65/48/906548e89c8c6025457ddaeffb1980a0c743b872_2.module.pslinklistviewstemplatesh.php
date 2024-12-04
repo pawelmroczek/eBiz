@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-24 15:00:13
+/* Smarty version 3.1.48, created on 2024-12-03 16:58:12
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6743316df0ebb7_47658501',
+  'unifunc' => 'content_674f2a94c8d798_56464731',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '906548e89c8c6025457ddaeffb1980a0c743b872' => 
     array (
       0 => 'module:pslinklistviewstemplatesh',
-      1 => 1732293329,
+      1 => 1732533047,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6743316df0ebb7_47658501 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674f2a94c8d798_56464731 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-md-6 links">
   <div class="row">
   <?php
