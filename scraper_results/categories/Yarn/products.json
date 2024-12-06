@@ -1,6 +1,25 @@
 {
     "New Colors": [
         {
+            "name": "Polska Włóczka",
+            "description_miniatur": "Whoopsland | Aran/Heavy Worsted | Wełna",
+            "from": "",
+            "price": "$12.99",
+            "description": "Kolor: Chicken of the Woods Chicken of the Woods to intensywnie złoto-pomarańczowy kolor z brązowymi odcieniami. Chicken of the Woods ma bogaty, złocisty pomarańczowy kolor z brązowymi tonami.",
+            "second_description": "Opis włóczki Czasami błędy prowadzą do czegoś niespodziewanie wspaniałego. Tak było w przypadku Whoopsland, naszej pierwszej próby stworzenia wersji naszej ukochanej włóczki Woodland bez tweedu. Ta luksusowa mieszanka 80% merino i 20% alpaki znajduje idealną równowagę między rustykalnym urokiem a wysublimowaną elegancją. Z wystarczającą ilością alpaki, aby dodać ciepła i miękkości, ta włóczka na bazie merino jest idealna na zimowe ubrania i wystarczająco delikatna do kontaktu z skórą. Jej luźny, delikatny skręt zapewnia doskonałą wydajność termiczną, zwis i wyrazistość ściegów. Podczas produkcji odkryliśmy, że ta wersja bez tweedu miała nieco więcej pilingu niż oczekiwano po farbowaniu. Zamiast ją odrzucić, oferujemy ją po specjalnej obniżonej cenie, umożliwiając Ci korzystanie z włóczki premium w wyjątkowej cenie. Mimo drobnego pilingu, wysoka zawartość merino zapewnia doskonałą wyrazistość ściegów, co sprawia, że jest idealna do teksturowanych lub kablowanych wzorów, niezależnie od tego, czy dążysz do rustykalnego stylu, czy bardziej klasycznego wyglądu. Ta limitowana edycja włóczki jest wystarczająco miękka na akcesoria i wystarczająco uniwersalna do różnych projektów. Nie przegap swojej szansy na doświadczenie Whoopsland – włóczki premium z odrobiną charakteru, dostępnej po przystępnej cenie. Yarn Details: Skład: 80% Wełna Merino, 20% Baby Alpaca Waga: Aran/Heavy Worsted Dopuszczalny Gauges: 4 - 4,75 ściegów = 1 cal na drutach nr 7 - 9 (4,5mm-5,5mm) Gauges na szydełku: 11-14 oczek ścisłych = 4 cali na szydełku nr I - K (5,5 mm-6,5 mm) Długość: 180 jardów Waga: 100 gramów Forma: Hanka Pielęgnacja: Prać ręcznie w zimnej wodzie / suszyć na płasko.",
+            "images": [
+                "..\\scraper_results\\categories\\zdjecia_produktow\\123.png",
+                "..\\scraper_results\\categories\\zdjecia_produktow\\456.png"
+            ],
+            "atributtes": [
+                {
+                    "fiber_content": "Merino Wool",
+                    "yarn_weight": " Aran/Heavy Worsted "
+                }
+            ],
+            "options": []
+        },
+        {
             "name": "Chicken of the Woods",
             "description_miniatur": "Whoopsland | Aran/Heavy Worsted | 80% Merino Wool, 20% Baby Alpaca",
             "from": "",

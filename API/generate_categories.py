@@ -38,8 +38,8 @@ def delete_category(category_id):
 
     if response.status_code == 200:
         print(f"Kategoria o ID {category_id} została usunięta.")
-    else:
-        print(f"Błąd podczas usuwania kategorii o ID {category_id}: {response.status_code} - {response.text}")
+    #else:
+        #print(f"Błąd podczas usuwania kategorii o ID {category_id}: {response.status_code} - {response.text}")
 def get_all_products():
     response = requests.get(api_url_products, auth=auth, headers={"Accept": "application/xml"})
     if response.status_code == 200:
@@ -126,7 +126,7 @@ def create_category(name_newcategory, parent_id, parent_name=""):
 
     # Generowanie XML
     xml_data = etree.tostring(prestashop, pretty_print=True, encoding="utf-8").decode("utf-8")
-    print(xml_data)
+    #print(xml_data)
 
     # Wysyłanie POST z XML do API
     response = requests.post(api_url_categorires, auth=auth, headers={"Content-Type": "application/xml"}, data=xml_data)
