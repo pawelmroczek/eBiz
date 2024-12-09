@@ -16,8 +16,6 @@ services:
     image: prestashop/prestashop:1.7.8
     volumes:
       - ./src/psdata:/var/www/html
-      - ./certs:/etc/ssl/certs
-      - ./certs:/etc/ssl/private
     environment:
       DB_SERVER: db
       DB_NAME: presta
@@ -25,7 +23,6 @@ services:
       DB_PASSWD: root
     ports:
       - "8080:80"
-      - "8443:443"
     depends_on:
       - db
     networks:

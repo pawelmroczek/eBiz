@@ -47,7 +47,7 @@
           >
         </div>
 
-        <div class="add">
+        <div class="add productPage__button">
           <button
             class="btn btn-primary add-to-cart"
             data-button-action="add-to-cart"
