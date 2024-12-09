@@ -25,7 +25,7 @@ def get_feature_value_id(id_feature, value_name):
 
     feature_values_url = f"{api_url}/product_feature_values"
 
-    response = requests.get(feature_values_url, auth=auth, headers=headers)
+    response = requests.get(feature_values_url, auth=auth, headers=headers, verify=False)
     if response.status_code != 200:
         print(f"Błąd podczas pobierania wartości cech: {response.status_code}")
         return None
@@ -36,7 +36,7 @@ def get_feature_value_id(id_feature, value_name):
         feature_value_id = feature_value.get("id")
         link = feature_value.get("{http://www.w3.org/1999/xlink}href")
 
-        detail_response = requests.get(link, auth=auth, headers=headers)
+        detail_response = requests.get(link, auth=auth, headers=headers, verify=False)
         if detail_response.status_code == 200:
             detail_root = ET.fromstring(detail_response.content)
 
@@ -79,7 +79,8 @@ def add_image_to_product(product_id, image_path, is_default=False):
             response = requests.post(
                 f"{api_url}/images/products/{product_id}",
                 auth=auth,
-                headers=headers,
+                headers=headers, 
+                verify=False,
                 files=files,
                 data=data
             )
@@ -88,10 +89,10 @@ def add_image_to_product(product_id, image_path, is_default=False):
                 root = ET.fromstring(response.content)
                 return root.find("id").text
             else:
-                #print(f"Error: {response.status_code}, Response: {response.text}")
+                print(f"Error: {response.status_code}, Response: {response.text}")
                 return None
     except FileNotFoundError:
-        #print(f"File not found: {image_path}")
+        print(f"File not found: {image_path}")
         return None
 
 def generate_product_features(id_feature_first, id_feature_first_values, id_feature_second, id_feature_second_value):
@@ -258,7 +259,7 @@ def change_stock(id_product, quantity, id_product_attribute=0):
     # Pobranie ID stock_available
     response = requests.get(
         f"{api_url}stock_availables?filter[id_product]={id_product}&filter[id_product_attribute]={id_product_attribute}&display=full",
-        auth=auth, headers=headers)
+        auth=auth, headers=headers, verify=False)
 
     if response.status_code != 200:
         print(f"Błąd podczas pobierania stock_available: {response.content}")
@@ -300,7 +301,8 @@ def update_stock(stock_id, product_id, new_quantity):
             update_url,
             data=xml_data,
             headers={'Content-Type': 'application/xml'},
-            auth=auth,
+            verify=False,
+            auth=auth
         )
 
         # Check if the request was successful
@@ -313,3 +315,4 @@ def update_stock(stock_id, product_id, new_quantity):
             return False
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
+

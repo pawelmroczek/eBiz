@@ -12,7 +12,7 @@ headers = {
 auth = HTTPBasicAuth(api_key, password)
 
 def get_all_categories():
-    response = requests.get(api_url_categorires, auth=auth, headers={"Accept": "application/xml"})
+    response = requests.get(api_url_categorires, auth=auth, headers={"Accept": "application/xml"}, verify=False)
 
     if response.status_code == 200:
         try:
@@ -34,14 +34,14 @@ def get_all_categories():
 
 def delete_category(category_id):
     url = f"{api_url_categorires}/{category_id}"
-    response = requests.delete(url, auth=auth)
+    response = requests.delete(url, auth=auth, verify=False)
 
     if response.status_code == 200:
         print(f"Kategoria o ID {category_id} została usunięta.")
     #else:
         #print(f"Błąd podczas usuwania kategorii o ID {category_id}: {response.status_code} - {response.text}")
 def get_all_products():
-    response = requests.get(api_url_products, auth=auth, headers={"Accept": "application/xml"})
+    response = requests.get(api_url_products, auth=auth, headers={"Accept": "application/xml"}, verify=False)
     if response.status_code == 200:
         try:
             root = ET.fromstring(response.text)
@@ -56,7 +56,7 @@ def get_all_products():
         return []
 def delete_product(product_id):
     url = f"{api_url_products}/{product_id}"
-    response = requests.delete(url, auth=auth)
+    response = requests.delete(url, auth=auth, verify=False)
     if response.status_code == 200:
         print(f"Produkt o ID {product_id} został usunięty.")
         return True
@@ -129,7 +129,7 @@ def create_category(name_newcategory, parent_id, parent_name=""):
     #print(xml_data)
 
     # Wysyłanie POST z XML do API
-    response = requests.post(api_url_categorires, auth=auth, headers={"Content-Type": "application/xml"}, data=xml_data)
+    response = requests.post(api_url_categorires, auth=auth, headers={"Content-Type": "application/xml"}, data=xml_data, verify=False)
 
     if response.status_code == 201:
         print(f"Kategoria {name_newcategory} została pomyślnie utworzona.")

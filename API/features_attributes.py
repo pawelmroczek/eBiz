@@ -35,7 +35,7 @@ def get_unique_colors(data):
     return unique_names
 
 def delete_attributes_values():
-    response = requests.get(f"{api_url}product_option_values", auth=auth, headers=headers)
+    response = requests.get(f"{api_url}product_option_values", auth=auth, headers=headers, verify=False)
     if response.status_code == 200:
         root = ET.fromstring(response.text)
         attributes = []
@@ -45,7 +45,7 @@ def delete_attributes_values():
             attributes.append({"id": attribute_id})
         for attribute in attributes:
             attribute_id = attribute.get("id")
-            delete_response = requests.delete(f"{api_url}product_option_values/{attribute_id}", auth=auth, headers=headers)
+            delete_response = requests.delete(f"{api_url}product_option_values/{attribute_id}", auth=auth, headers=headers, verify=False)
             if delete_response.status_code == 200:
                 print(f"Wartość atrybutu {attribute_id} została usunięta.")
             else:
@@ -54,7 +54,7 @@ def delete_attributes_values():
         print(f"Błąd podczas pobierania wartości atrybutów: {response.content}")
 
 def delete_attributes_options():
-    response = requests.get(f"{api_url}product_options", auth=auth, headers=headers)
+    response = requests.get(f"{api_url}product_options", auth=auth, headers=headers, verify=False)
     if response.status_code == 200:
         root = ET.fromstring(response.text)
         attributes = []
@@ -64,7 +64,7 @@ def delete_attributes_options():
             attributes.append({"id": attribute_id})
         for attribute in attributes:
             attribute_id = attribute.get("id")
-            delete_response = requests.delete(f"{api_url}product_options/{attribute_id}", auth=auth, headers=headers)
+            delete_response = requests.delete(f"{api_url}product_options/{attribute_id}", auth=auth, headers=headers, verify=False)
             if delete_response.status_code == 200:
                 print(f"Atrybut {attribute_id} została usunięta.")
             else:
@@ -73,7 +73,7 @@ def delete_attributes_options():
         print(f"Błąd podczas pobierania atrybutów: {response.content}")
 
 def delete_feature_values():
-    response = requests.get(f"{api_url}product_feature_values", auth=auth, headers=headers)
+    response = requests.get(f"{api_url}product_feature_values", auth=auth, headers=headers, verify=False)
     if response.status_code == 200:
         root = ET.fromstring(response.text)
         features = []
@@ -83,7 +83,7 @@ def delete_feature_values():
             features.append({"id": feature_id})
         for feature in features:
             feature_id = feature.get("id")
-            delete_response = requests.delete(f"{api_url}product_feature_values/{feature_id}", auth=auth, headers=headers)
+            delete_response = requests.delete(f"{api_url}product_feature_values/{feature_id}", auth=auth, headers=headers, verify=False)
             if delete_response.status_code == 200:
                 print(f"Wartość cechy {feature_id} została usunięta.")
             else:
@@ -92,7 +92,7 @@ def delete_feature_values():
         print(f"Błąd podczas pobierania wartości cech: {response.content}")
 
 def delete_features():
-    response = requests.get(f"{api_url}product_features", auth=auth, headers=headers)
+    response = requests.get(f"{api_url}product_features", auth=auth, headers=headers, verify=False)
     if response.status_code == 200:
         root = ET.fromstring(response.text)
         features = []
@@ -102,7 +102,7 @@ def delete_features():
             features.append({"id": feature_id})
         for feature in features:
             feature_id = feature.get("id")
-            delete_response = requests.delete(f"{api_url}product_features/{feature_id}", auth=auth, headers=headers)
+            delete_response = requests.delete(f"{api_url}product_features/{feature_id}", auth=auth, headers=headers, verify=False)
             if delete_response.status_code == 200:
                 print(f"Cecha {feature_id} została usunięta.")
             else:
@@ -127,7 +127,7 @@ def create_attribute_group(name, public_name, is_color_group=False):
         </product_option>
     </prestashop>
     """
-    response = requests.post(f"{api_url}product_options", auth=auth, headers=headers, data=xml_data)
+    response = requests.post(f"{api_url}product_options", auth=auth, headers=headers, verify=False, data=xml_data)
     if response.status_code == 201:
         print(f"Grupa atrybutów '{name}' została utworzona.")
         return response
@@ -145,7 +145,7 @@ def create_feature(name):
         </product_feature>
     </prestashop>
     """
-    response = requests.post(f"{api_url}product_features", auth=auth, headers=headers, data=xml_data)
+    response = requests.post(f"{api_url}product_features", auth=auth, headers=headers, verify=False, data=xml_data)
     if response.status_code == 201:
         print(f"Cecha '{name}' została utworzona.")
         return response
@@ -163,7 +163,7 @@ def create_feature_value(name, id_feature):
         </product_feature_value>
     </prestashop>
     """
-    response = requests.post(f"{api_url}product_feature_values", auth=auth, headers=headers, data=xml_data)
+    response = requests.post(f"{api_url}product_feature_values", auth=auth, headers=headers, verify=False, data=xml_data)
     if response.status_code == 201:
         print(f"Wartość cechy '{name}' została utworzona.")
         return response
@@ -185,7 +185,7 @@ def create_attribute_value(name, id_attribute):
         </product_option_value>
     </prestashop>
     """
-    response = requests.post(f"{api_url}product_option_values", auth=auth, headers=headers, data=xml_data)
+    response = requests.post(f"{api_url}product_option_values", auth=auth, headers=headers, verify=False, data=xml_data)
     if response.status_code == 201:
         print(f"Wartość koloru '{name}' została utworzona.")
         return response
