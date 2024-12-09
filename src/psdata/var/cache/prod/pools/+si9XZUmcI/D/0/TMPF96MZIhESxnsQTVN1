@@ -1,0 +1,4 @@
+<?php return array (
+  0 => 9223372036854775807,
+  1 => 'O:50:"Symfony\\Component\\Serializer\\Mapping\\ClassMetadata":2:{s:4:"name";s:78:"PrestaShop\\PrestaShop\\Core\\Domain\\SqlManagement\\ValueObject\\DatabaseTableField";s:18:"attributesMetadata";a:2:{s:4:"name";O:54:"Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata":3:{s:4:"name";s:4:"name";s:6:"groups";a:0:{}s:8:"maxDepth";N;}s:4:"type";O:54:"Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata":3:{s:4:"name";s:4:"type";s:6:"groups";a:0:{}s:8:"maxDepth";N;}}}',
+);
