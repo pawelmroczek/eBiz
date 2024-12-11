@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-09 15:30:28
+/* Smarty version 3.1.48, created on 2024-12-11 18:52:56
   from '/var/www/html/modules/ps_metrics/views/templates/hook/HookDashboardZoneTwo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6756ff046ca298_80376823',
+  'unifunc' => 'content_6759d178eb9160_58475251',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b9a90912c435e5560c108decc6afd43b10f56908' => 
     array (
       0 => '/var/www/html/modules/ps_metrics/views/templates/hook/HookDashboardZoneTwo.tpl',
-      1 => 1732533045,
+      1 => 1733768790,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6756ff046ca298_80376823 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6759d178eb9160_58475251 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="metrics-app"></div>
 

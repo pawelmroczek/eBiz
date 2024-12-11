@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-09 17:19:27
+/* Smarty version 3.1.48, created on 2024-12-11 18:53:06
   from '/var/www/html/admin284wsmgoi/themes/new-theme/template/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6757188f1eb1f7_88880757',
+  'unifunc' => 'content_6759d182641fa3_31848309',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5773c1358c5f91c5054340f4efb38f34a03fb03a' => 
     array (
       0 => '/var/www/html/admin284wsmgoi/themes/new-theme/template/header.tpl',
-      1 => 1732533041,
+      1 => 1733768772,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6757188f1eb1f7_88880757 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6759d182641fa3_31848309 (Smarty_Internal_Template $_smarty_tpl) {
 ?><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=<?php echo (isset($_smarty_tpl->tpl_vars['viewport_scale']->value)) ? $_smarty_tpl->tpl_vars['viewport_scale']->value : '1';?>
 ">

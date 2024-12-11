@@ -2,8 +2,11 @@ from generate_categories import *
 import json
 from features_attributes import *
 from create_products import *
+import urllib3
 with open("../scraper_results/categories.json", "r", encoding="utf-8") as file:
     categories_data = json.load(file)
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 delete_all_caregories()
 all_category_ids = []
@@ -93,7 +96,7 @@ for item in yarn_data["New Colors"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:
@@ -126,7 +129,7 @@ for item in yarn_data["View All"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:
@@ -162,7 +165,7 @@ for item in data["Beginner Kits"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:
@@ -189,7 +192,7 @@ for item in data["View All"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:
@@ -224,7 +227,7 @@ for item in data["New"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:
@@ -251,7 +254,7 @@ for item in data["View All"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:
@@ -287,7 +290,7 @@ for item in data["New"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:
@@ -296,7 +299,9 @@ for item in data["New"]:
 id_product = None
 for item in data["View All"]:
     if product_count >= 1000:
-        break
+        product_count = get_count_products()
+        if product_count >= 1000:
+            break
     path_Default = item["images"][0]
     if len(item["images"]) == 2:
         path_second = item["images"][1]
@@ -316,7 +321,7 @@ for item in data["View All"]:
     add_image_to_product(id_product, path_Default)
     add_image_to_product(id_product, path_second)
     print(product_count)
-    if not change_stock(id_product, 10):
+    if not change_stock(id_product, random.randint(0, 10)):
         errors.append(id_product)
         id_product = None
     else:

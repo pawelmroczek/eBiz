@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-09 17:18:38
+/* Smarty version 3.1.48, created on 2024-12-11 18:52:33
   from '/var/www/html/themes/classic/templates/catalog/_partials/products-top.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6757185e022b38_23004009',
+  'unifunc' => 'content_6759d1610eb1d7_89956106',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '769a8869e0fd8b52ef792a1070f139c62aadc4c5' => 
     array (
       0 => '/var/www/html/themes/classic/templates/catalog/_partials/products-top.tpl',
-      1 => 1733418913,
+      1 => 1733768809,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/sort-orders.tpl' => 1,
   ),
 ),false)) {
-function content_6757185e022b38_23004009 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6759d1610eb1d7_89956106 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -39,7 +39,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <div class="row sort-by-row">
 
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8813017666757185e020816_24683449', 'sort_by');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4134733386759d1610e8b88_48503587', 'sort_by');
 ?>
 
 
@@ -60,12 +60,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8813017666757185e0
 </div>
 <?php }
 /* {block 'sort_by'} */
-class Block_8813017666757185e020816_24683449 extends Smarty_Internal_Block
+class Block_4134733386759d1610e8b88_48503587 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'sort_by' => 
   array (
-    0 => 'Block_8813017666757185e020816_24683449',
+    0 => 'Block_4134733386759d1610e8b88_48503587',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

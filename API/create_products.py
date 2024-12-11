@@ -89,10 +89,10 @@ def add_image_to_product(product_id, image_path, is_default=False):
                 root = ET.fromstring(response.content)
                 return root.find("id").text
             else:
-                print(f"Error: {response.status_code}, Response: {response.text}")
+                #print(f"Error: {response.status_code}, Response: {response.text}")
                 return None
     except FileNotFoundError:
-        print(f"File not found: {image_path}")
+        #print(f"File not found: {image_path}")
         return None
 
 def generate_product_features(id_feature_first, id_feature_first_values, id_feature_second, id_feature_second_value):

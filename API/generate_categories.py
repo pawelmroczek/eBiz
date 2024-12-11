@@ -54,6 +54,10 @@ def get_all_products():
     else:
         print(f"Błąd podczas pobierania produktów: {response.status_code} - {response.text}")
         return []
+def get_count_products():
+    products = get_all_products()
+    return len(products)
+
 def delete_product(product_id):
     url = f"{api_url_products}/{product_id}"
     response = requests.delete(url, auth=auth, verify=False)
