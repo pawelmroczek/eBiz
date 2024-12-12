@@ -69,23 +69,23 @@
       <div class="product-description">
         {block name='product_name'}
           {if $page.page_name == 'index'}
-            <h3 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:30:'...'}</a></h3>
+            <h3 class="h3 product-title popularProducts__itemName"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:30:'...'}</a></h3>
           {else}
-            <h2 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:30:'...'}</a></h2>
+            <h2 class="h3 product-title popularProducts__itemName"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:30:'...'}</a></h2>
           {/if}
         {/block}
 
         {block name='product_price_and_shipping'}
           {if $product.show_price}
-            <div class="product-price-and-shipping">
+            <div class="product-price-and-shipping popularProducts__price">
               {if $product.has_discount}
                 {hook h='displayProductPriceBlock' product=$product type="old_price"}
-
-                <span class="regular-price" aria-label="{l s='Regular price' d='Shop.Theme.Catalog'}">{$product.regular_price}</span>
+                from
+                <span class="regular-price " aria-label="{l s='Regular price' d='Shop.Theme.Catalog'}">{$product.regular_price}</span>
                 {if $product.discount_type === 'percentage'}
-                  <span class="discount-percentage discount-product">{$product.discount_percentage}</span>
+                  <span class="discount-percentage discount-product ">{$product.discount_percentage}</span>
                 {elseif $product.discount_type === 'amount'}
-                  <span class="discount-amount discount-product">{$product.discount_amount_to_display}</span>
+                  <span class="discount-amount discount-product ">{$product.discount_amount_to_display}</span>
                 {/if}
               {/if}
 
@@ -94,16 +94,27 @@
               <span class="price" aria-label="{l s='Price' d='Shop.Theme.Catalog'}">
                 {capture name='custom_price'}{hook h='displayProductPriceBlock' product=$product type='custom_price' hook_origin='products_list'}{/capture}
                 {if '' !== $smarty.capture.custom_price}
-                  {$smarty.capture.custom_price nofilter}
+                 {$smarty.capture.custom_price nofilter}
+                 {elseif $product.has_discount}
+                 <span class="popularProducts__finalPrice">{$product.price}</span>
                 {else}
                   {$product.price}
                 {/if}
+
+                
               </span>
 
               {hook h='displayProductPriceBlock' product=$product type='unit_price'}
 
               {hook h='displayProductPriceBlock' product=$product type='weight'}
             </div>
+           <!-- tu jest do zmiany krotki opis -->
+            <div id="product-description-short" class="popularProducts__short">{$product.description_short|strip_tags nofilter}</div>
+            {if $page.page_name == 'index'}
+            <div class="popularProducts__button">
+              SHOP NOW
+            </div>
+            {/if}
           {/if}
         {/block}
 

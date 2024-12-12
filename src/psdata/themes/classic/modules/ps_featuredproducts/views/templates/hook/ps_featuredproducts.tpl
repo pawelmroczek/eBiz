@@ -139,12 +139,22 @@
         </div>
       </div>
     </div>
-    <h2 class="h2 products-section-title text-uppercase">
-      {l s='Popular Products' d='Shop.Theme.Catalog'}
-    </h2>
+   <div class="container">
+    <div class="popularProducts__header-container">
+      <div class="popularProducts">
+        <h2 class="h2 products-section-title popularProducts__header">
+          {l s='Popular Products' d='Shop.Theme.Catalog'}
+        </h2>
+        <p>Discover the latest and greatest yarns all at prices that make anything you dream up possible.</p>
+      </div>
+      <div>
+        <a class="all-product-link float-xs-left float-md-right popularProducts__header-link h4" href="{$allProductsLink}">
+          {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
+        </a>
+      </div>
+    </div>
     {include file="catalog/_partials/productlist.tpl" products=$products cssClass="row" productClass="col-xs-12 col-sm-6
     col-lg-4 col-xl-3"}
-    <a class="all-product-link float-xs-left float-md-right h4" href="{$allProductsLink}">
-      {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
-    </a>
+    
+   </div>
   </section>

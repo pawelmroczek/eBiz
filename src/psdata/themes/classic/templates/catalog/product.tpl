@@ -50,9 +50,8 @@
 
   <section id="main">
     <meta content="{$product.url}">
-
-    <div class="row product-container js-product-container">
-      <div class="col-md-6">
+    <div class="product-container js-product-container">
+      <div class="productPage__container">
         {block name='page_content_container'}
           <section class="page-content" id="content">
             {block name='page_content'}
@@ -70,10 +69,10 @@
           </section>
         {/block}
         </div>
-        <div class="col-md-6">
+        <div class="productPage__container">
           {block name='page_header_container'}
             {block name='page_header'}
-              <h1 class="h1">{block name='page_title'}{$product.name}{/block}</h1>
+              <h1 class="h1 productPage__header">{block name='page_title'}{$product.name}{/block}</h1>
             {/block}
           {/block}
           {block name='product_prices'}
@@ -98,9 +97,7 @@
                   <input type="hidden" name="id_product" value="{$product.id}" id="product_page_product_id">
                   <input type="hidden" name="id_customization" value="{$product.id_customization}" id="product_customization_id" class="js-product-customization-id">
 
-                  {block name='product_variants'}
-                    {include file='catalog/_partials/product-variants.tpl'}
-                  {/block}
+                 
 
                   {block name='product_pack'}
                     {if $packItems}
@@ -121,6 +118,10 @@
 
                   {block name='product_add_to_cart'}
                     {include file='catalog/_partials/product-add-to-cart.tpl'}
+                  {/block}
+
+                  {block name='product_variants'}
+                    {include file='catalog/_partials/product-variants.tpl'}
                   {/block}
 
                   {block name='product_additional_info'}

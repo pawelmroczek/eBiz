@@ -34,8 +34,8 @@
     </span>
   </div>
 
-  <p class="h4 text-uppercase block-contact-title hidden-sm-down">{l s='Store information' d='Shop.Theme.Global'}</p>
-  <div id="contact-infos" class="collapse">
+  <p class="h4 text-uppercase block-contact-title hidden-sm-down footer__title">{l s='Store information' d='Shop.Theme.Global'}</p>
+  <div id="contact-infos" class="collapse footer__title">
     {$contact_infos.address.formatted nofilter}
     {if $contact_infos.phone}
       <br>
@@ -64,8 +64,10 @@
     {/if}
     {if $contact_infos.email && $display_email}
       <br>
-        {l s='Email us:' d='Shop.Theme.Global'}
+      {l s='Email us:' d='Shop.Theme.Global'}
+        <span class="underline">
         {mailto address=$contact_infos.email encode="javascript"}
+        </span>
     {/if}
   </div>
 </div>

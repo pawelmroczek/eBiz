@@ -34,3 +34,17 @@
   {$listing.rendered_facets nofilter}
 </div>
 {/if}
+<!-- <button id="toggle_filters" class="btn btn-primary">
+  Toggle Filters
+</button>
+<script>
+  // document.getElementById('serach_filters_wrapper').style.display = 'none';
+  document.getElementById('toggle_filters').addEventListener('click', function() {
+    var filtersWrapper = document.getElementById('search_filters_wrapper');
+    if (filtersWrapper.style.display === 'block' || filtersWrapper.style.display === '') {
+      filtersWrapper.style.display = 'none';
+    } else {
+      filtersWrapper.style.display = 'block';
+    }
+  });
+</script> -->
