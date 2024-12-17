@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 15:02:16
+/* Smarty version 3.1.48, created on 2024-12-17 15:45:49
   from '/var/www/html/themes/classic/templates/checkout/_partials/login-form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_676184683d6292_71266408',
+  'unifunc' => 'content_67618e9d2b1e90_67265802',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bc9c3be80588f979676c8b571da1497d83e007e3' => 
     array (
       0 => '/var/www/html/themes/classic/templates/checkout/_partials/login-form.tpl',
-      1 => 1734440248,
+      1 => 1734445360,
       2 => 'file',
     ),
   ),
@@ -20,25 +20,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_676184683d6292_71266408 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67618e9d2b1e90_67265802 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_324924398676184683d5822_02335969', 'form_buttons');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_97075697767618e9d2b1957_17628193', 'form_buttons');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'customer/_partials/login-form.tpl');
 }
 /* {block 'form_buttons'} */
-class Block_324924398676184683d5822_02335969 extends Smarty_Internal_Block
+class Block_97075697767618e9d2b1957_17628193 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'form_buttons' => 
   array (
-    0 => 'Block_324924398676184683d5822_02335969',
+    0 => 'Block_97075697767618e9d2b1957_17628193',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

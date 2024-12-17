@@ -58,7 +58,7 @@
 
             {if $order.details.invoice_url}
               <li>
-                <a href="{$order.details.invoice_url}">
+                <a class="invoice" href="{$order.details.invoice_url}">
                   {l s='Download your invoice as a PDF file.' d='Shop.Theme.Customeraccount'}
                 </a>
               </li>
