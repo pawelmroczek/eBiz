@@ -1,0 +1,37 @@
+services:
+  db:
+    container_name: presta-database
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: presta
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./database/dbdata:/var/lib/mysql
+    networks:
+      - prestashop
+  presta:
+    container_name: presta
+    image: prestashop/prestashop:1.7.8
+    volumes:
+      - ./src/psdata:/var/www/html
+      - ./certs:/etc/ssl/certs
+      - ./certs:/etc/ssl/private
+    environment:
+      DB_SERVER: db
+      DB_NAME: presta
+      DB_USER: root
+      DB_PASSWD: root
+    ports:
+      - "8080:80"
+      - "8443:443"
+    depends_on:
+      - db
+    networks:
+      - prestashop
+networks:
+  prestashop:
+volumes:
+  dbdata:
+  psdata:
