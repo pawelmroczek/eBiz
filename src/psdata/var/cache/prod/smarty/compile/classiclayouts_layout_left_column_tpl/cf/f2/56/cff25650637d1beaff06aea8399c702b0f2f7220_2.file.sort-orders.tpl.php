@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 18:29:53
+/* Smarty version 3.1.48, created on 2024-12-17 19:50:23
   from '/var/www/html/themes/classic/templates/catalog/_partials/sort-orders.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6761b5114edaf6_39689762',
+  'unifunc' => 'content_6761c7ef8160a2_60941096',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cff25650637d1beaff06aea8399c702b0f2f7220' => 
     array (
       0 => '/var/www/html/themes/classic/templates/catalog/_partials/sort-orders.tpl',
-      1 => 1734455318,
+      1 => 1734461187,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6761b5114edaf6_39689762 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6761c7ef8160a2_60941096 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <span class="filter__sorting-span hidden-sm-down sort-by">Sort</span>
 <div class="<?php if (!empty($_smarty_tpl->tpl_vars['listing']->value['rendered_facets'])) {?>col-sm-9 col-xs-8<?php } else { ?>col-sm-12 col-xs-12<?php }?> col-md-9 products-sort-order dropdown">

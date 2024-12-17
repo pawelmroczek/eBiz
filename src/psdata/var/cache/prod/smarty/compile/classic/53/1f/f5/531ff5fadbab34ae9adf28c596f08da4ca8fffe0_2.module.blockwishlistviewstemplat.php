@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 18:29:53
+/* Smarty version 3.1.48, created on 2024-12-17 19:50:23
   from 'module:blockwishlistviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6761b511b85ec9_04582749',
+  'unifunc' => 'content_6761c7efe582b7_92288494',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '531ff5fadbab34ae9adf28c596f08da4ca8fffe0' => 
     array (
       0 => 'module:blockwishlistviewstemplat',
-      1 => 1734455312,
+      1 => 1734461173,
       2 => 'module',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:blockwishlist/views/templates/components/modals/delete.tpl' => 1,
   ),
 ),false)) {
-function content_6761b511b85ec9_04582749 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6761c7efe582b7_92288494 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['context']->value === "product") {?>
   <?php $_smarty_tpl->_subTemplateRender("module:blockwishlist/views/templates/components/modals/add-to-wishlist.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('url'=>$_smarty_tpl->tpl_vars['url']->value,'addUrl'=>$_smarty_tpl->tpl_vars['addUrl']->value,'newWishlistCTA'=>$_smarty_tpl->tpl_vars['newWishlistCTA']->value), 0, false);
 ?>

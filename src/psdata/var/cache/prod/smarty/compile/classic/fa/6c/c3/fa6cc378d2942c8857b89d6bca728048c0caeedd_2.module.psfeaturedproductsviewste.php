@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 18:17:41
+/* Smarty version 3.1.48, created on 2024-12-17 19:50:18
   from 'module:psfeaturedproductsviewste' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6761b2353b17b8_10468975',
+  'unifunc' => 'content_6761c7ea32f234_59991220',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa6cc378d2942c8857b89d6bca728048c0caeedd' => 
     array (
       0 => 'module:psfeaturedproductsviewste',
-      1 => 1734455318,
+      1 => 1734461187,
       2 => 'module',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_6761b2353b17b8_10468975 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6761c7ea32f234_59991220 (Smarty_Internal_Template $_smarty_tpl) {
 ?>  <section class="featured-products clearfix">
     <div class="tiles__container">
       <div class="tile">

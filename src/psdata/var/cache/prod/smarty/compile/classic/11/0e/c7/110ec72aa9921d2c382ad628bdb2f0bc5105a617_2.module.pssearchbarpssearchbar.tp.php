@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 18:29:53
+/* Smarty version 3.1.48, created on 2024-12-17 19:50:23
   from 'module:pssearchbarpssearchbar.tp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6761b5114a0342_98251487',
+  'unifunc' => 'content_6761c7ef7ab831_02711231',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '110ec72aa9921d2c382ad628bdb2f0bc5105a617' => 
     array (
       0 => 'module:pssearchbarpssearchbar.tp',
-      1 => 1734455316,
+      1 => 1734461180,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6761b5114a0342_98251487 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6761c7ef7ab831_02711231 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="search_widget" class="search-widgets" data-search-controller-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['search_controller_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">
