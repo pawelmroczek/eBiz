@@ -2,11 +2,13 @@
 
 # Projekt: Prestashop crochet.com
 
+## Opis projektu
+Głównym celem projektu było stworzenie sklepu internetowego wzorując się na stronie crochet.com przy użyciu platformy Prestashop. 
+
 ## Technologie
 Projekt wykorzystuje następujące technologie i narzędzia:
 - **Prestashop** w wersji 1.7.8 - platforma e-commerce,
 - **MySQL** - baza danych
-Scraper wykorzystuje:
 - **BeautifulSoup4** - biblioteka do parsowania HTML i ekstrakcji danych,
 - **Requests** - biblioteka do obsługi żądań HTTP,
 - **lxml** - parser XML i HTML,
