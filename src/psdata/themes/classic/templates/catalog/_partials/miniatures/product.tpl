@@ -71,13 +71,17 @@
           {if $page.page_name == 'index'}
             <h3 class="h3 product-title popularProducts__itemName"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:30:'...'}</a></h3>
           {else}
-            <h2 class="h3 product-title popularProducts__itemName"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:30:'...'}</a></h2>
+            <h2 class="h3 product-title popularProducts__itemName left"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:30:'...'}</a></h2>
           {/if}
         {/block}
 
         {block name='product_price_and_shipping'}
           {if $product.show_price}
+          {if $page.page_name == 'index'}
             <div class="product-price-and-shipping popularProducts__price">
+          {else}
+            <div class="product-price-and-shipping popularProducts__price left">
+          {/if}
               {if $product.has_discount}
                 {hook h='displayProductPriceBlock' product=$product type="old_price"}
                 from
@@ -109,8 +113,8 @@
               {hook h='displayProductPriceBlock' product=$product type='weight'}
             </div>
            <!-- tu jest do zmiany krotki opis -->
+           {if $page.page_name == 'index'}
             <div id="product-description-short" class="popularProducts__short">{$product.description_short|strip_tags nofilter}</div>
-            {if $page.page_name == 'index'}
             <div class="popularProducts__button">
               SHOP NOW
             </div>

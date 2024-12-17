@@ -70,7 +70,9 @@
         Crochet.com is here to support crocheters – new and experienced. We have everything you need!
       </p>
       <div class="popularProducts__button">
-        LEARN MORE
+        <a>
+          LEARN MORE
+        </a>
       </div>
     </div>
   </div>

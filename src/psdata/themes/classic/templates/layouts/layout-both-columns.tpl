@@ -51,7 +51,7 @@
           <span class="font-bold max-w-xs lg:max-w-fit">
             The Big Yarn Sale, Up to 60% Off Favorite Yarns.
           </span>
-          <a class="underline sm:ml-4" href="/sale/wc1124-the-big-yarn-sale?id=50110806">Shop Now! »</a>
+          <a class="underline sm:ml-4" href="/299-yarn">Shop Now! »</a>
         </div>
       </div>
       {/block}

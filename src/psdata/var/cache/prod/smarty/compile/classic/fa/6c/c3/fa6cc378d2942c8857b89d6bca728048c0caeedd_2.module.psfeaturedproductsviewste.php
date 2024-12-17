@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 13:23:13
+/* Smarty version 3.1.48, created on 2024-12-17 15:09:51
   from 'module:psfeaturedproductsviewste' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67616d31053d04_72968673',
+  'unifunc' => 'content_6761862f0a1d72_45309896',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa6cc378d2942c8857b89d6bca728048c0caeedd' => 
     array (
       0 => 'module:psfeaturedproductsviewste',
-      1 => 1734430255,
+      1 => 1734441000,
       2 => 'module',
     ),
   ),
@@ -21,11 +21,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/productlist.tpl' => 1,
   ),
 ),false)) {
-function content_67616d31053d04_72968673 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6761862f0a1d72_45309896 (Smarty_Internal_Template $_smarty_tpl) {
 ?>  <section class="featured-products clearfix">
     <div class="tiles__container">
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/305-hooks">
           <img src="https://cdn.buttercms.com/WuKWSwtfRxy58dVmOUAQ" alt="">
         </a>
         <div class="tile__textContainer">
@@ -44,7 +44,7 @@ function content_67616d31053d04_72968673 (Smarty_Internal_Template $_smarty_tpl)
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/kits-bundles-beginner-kits/7069-learn-to-crochet-dishcloths-kit-sea-turtle-5811079867471.html">
           <img src="https://cdn.buttercms.com/eAtPESz3TOK6lDKrcLZy" alt="">
         </a>
         <div class="tile__textContainer">
@@ -63,7 +63,7 @@ function content_67616d31053d04_72968673 (Smarty_Internal_Template $_smarty_tpl)
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/299-yarn">
           <img src="https://cdn.buttercms.com/MRu8GbwMTD2jJN3IEzx8" alt="">
         </a>
         <div class="tile__textContainer">
@@ -82,7 +82,7 @@ function content_67616d31053d04_72968673 (Smarty_Internal_Template $_smarty_tpl)
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/305-hooks">
           <img src="https://cdn.buttercms.com/BfSbmLGvTvOtPCHziW5n" alt="">
         </a>
         <div class="tile__textContainer">
@@ -101,7 +101,7 @@ function content_67616d31053d04_72968673 (Smarty_Internal_Template $_smarty_tpl)
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/308-patterns">
           <img src="https://cdn.buttercms.com/fdvtOnzlTp6eOYO8XEW7" alt="">
         </a>
         <div class="tile__textContainer">
@@ -120,7 +120,7 @@ function content_67616d31053d04_72968673 (Smarty_Internal_Template $_smarty_tpl)
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/hooks-new/7104-caspian-tunisian-crochet-hook-set-in-the-round-7349488664765.html">
           <img src="https://cdn.buttercms.com/mWF1BeP9SfG5k4VtV2tA" alt="">
         </a>
         <div class="tile__textContainer">

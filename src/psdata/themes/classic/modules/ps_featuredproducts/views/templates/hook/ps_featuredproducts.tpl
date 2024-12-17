@@ -25,7 +25,7 @@
   <section class="featured-products clearfix">
     <div class="tiles__container">
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/305-hooks">
           <img src="https://cdn.buttercms.com/WuKWSwtfRxy58dVmOUAQ" alt="">
         </a>
         <div class="tile__textContainer">
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/kits-bundles-beginner-kits/7069-learn-to-crochet-dishcloths-kit-sea-turtle-5811079867471.html">
           <img src="https://cdn.buttercms.com/eAtPESz3TOK6lDKrcLZy" alt="">
         </a>
         <div class="tile__textContainer">
@@ -63,7 +63,7 @@
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/299-yarn">
           <img src="https://cdn.buttercms.com/MRu8GbwMTD2jJN3IEzx8" alt="">
         </a>
         <div class="tile__textContainer">
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/305-hooks">
           <img src="https://cdn.buttercms.com/BfSbmLGvTvOtPCHziW5n" alt="">
         </a>
         <div class="tile__textContainer">
@@ -101,7 +101,7 @@
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/308-patterns">
           <img src="https://cdn.buttercms.com/fdvtOnzlTp6eOYO8XEW7" alt="">
         </a>
         <div class="tile__textContainer">
@@ -120,7 +120,7 @@
         </div>
       </div>
       <div class="tile">
-        <a href="/sale/wc1124-tunisian-hook-set-sale/c/501101">
+        <a href="/hooks-new/7104-caspian-tunisian-crochet-hook-set-in-the-round-7349488664765.html">
           <img src="https://cdn.buttercms.com/mWF1BeP9SfG5k4VtV2tA" alt="">
         </a>
         <div class="tile__textContainer">

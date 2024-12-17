@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 13:22:51
+/* Smarty version 3.1.48, created on 2024-12-17 15:02:16
   from '/var/www/html/themes/classic/templates/checkout/_partials/steps/payment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67616d1bac42e2_11005402',
+  'unifunc' => 'content_676184684bb4e2_87762664',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5571c3bf11fd961114a90b55d84a491496d6c740' => 
     array (
       0 => '/var/www/html/themes/classic/templates/checkout/_partials/steps/payment.tpl',
-      1 => 1734430255,
+      1 => 1734444134,
       2 => 'file',
     ),
   ),
@@ -21,25 +21,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/order-final-summary.tpl' => 1,
   ),
 ),false)) {
-function content_67616d1bac42e2_11005402 (Smarty_Internal_Template $_smarty_tpl) {
+function content_676184684bb4e2_87762664 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_82444726867616d1bab8658_57805716', 'step_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_417332588676184684ab3f0_60067689', 'step_content');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
-class Block_82444726867616d1bab8658_57805716 extends Smarty_Internal_Block
+class Block_417332588676184684ab3f0_60067689 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'step_content' => 
   array (
-    0 => 'Block_82444726867616d1bab8658_57805716',
+    0 => 'Block_417332588676184684ab3f0_60067689',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -225,7 +225,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     <div class="ps-shown-by-js">
       <button type="submit" class="btn btn-primary center-block<?php if (!$_smarty_tpl->tpl_vars['selected_payment_option']->value) {?> disabled<?php }?>">
         <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Place order','d'=>'Shop.Theme.Checkout'),$_smarty_tpl ) );?>
-
+ sdf
       </button>
       <?php if ($_smarty_tpl->tpl_vars['show_final_summary']->value) {?>
         <article class="alert alert-danger mt-2 js-alert-payment-conditions" role="alert" data-alert="danger">

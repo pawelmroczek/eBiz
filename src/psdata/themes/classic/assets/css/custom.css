@@ -433,9 +433,17 @@ body {
     margin: 0 !important;
 }
 
-a {
-    color: white;
+footer a{
+    color: rgb(255 255 255) !important;
+}
 
+a {
+    color: rgb(185 28 28);
+
+}
+
+.page-header{
+    text-align: center;
 }
 
 .product-container {
@@ -688,7 +696,32 @@ label .color,
     margin-right: auto;
 }
 
+.js-product{
+    width: 25%;
+}
+
+.clearfix{
+    padding-right: 20px !important;
+}
+
 .product-container{
     margin-left: auto;
     margin-right: auto;
+}
+
+.left{
+    text-align: left !important;
+}
+
+.thumbnail-container{
+    width: 100% !important;
+}
+
+.product-miniature .thumbnail-container .product-thumbnail img{
+    max-width: none !important;
+    width: 100% !important;
+}
+
+.blockreassurance_product{
+    display: none !important;
 }

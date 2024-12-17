@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 13:22:26
+/* Smarty version 3.1.48, created on 2024-12-17 15:09:51
   from 'module:pscustomtextpscustomtext.' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67616d02565177_46012412',
+  'unifunc' => 'content_6761862f148074_26838540',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8654b2ba7ef103395c5eb0a4a12ed7463d291bc8' => 
     array (
       0 => 'module:pscustomtextpscustomtext.',
-      1 => 1734430254,
+      1 => 1734441213,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67616d02565177_46012412 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6761862f148074_26838540 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <div id="custom-text">
     <section>
@@ -68,7 +68,9 @@ function content_67616d02565177_46012412 (Smarty_Internal_Template $_smarty_tpl)
         Crochet.com is here to support crocheters – new and experienced. We have everything you need!
       </p>
       <div class="popularProducts__button">
-        LEARN MORE
+        <a>
+          LEARN MORE
+        </a>
       </div>
     </div>
   </div><?php }
