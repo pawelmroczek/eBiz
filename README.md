@@ -22,7 +22,7 @@ Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
    docker compose up -d
    ```
 
-2. **Wygeneruj certyfikaty SSL:**
+2. **Zaimportuj certyfikaty SSL:**
    ```bash
    ./ssl.sh
    ```
@@ -31,8 +31,13 @@ Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
    ```bash
    ./import.sh
    ```
+   
+4. **Nadaj uprawnienia plikom:**
+   ```bash
+   sudo chmod 777 -R ./
+   ```
 
-Po wykonaniu tych kroków aplikacja powinna być dostępna pod adresem URL `https://localhost:8443`
+Po wykonaniu tych kroków strona powinna być dostępna pod adresem URL `https://localhost:8443`
 
 ## Skład zespołu
 Projekt został zrealizowany przez:
