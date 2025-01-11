@@ -19,6 +19,7 @@ services:
       - ./certs:/etc/ssl/certs
       - ./certs:/etc/ssl/private
     environment:
+      PS_MODE_DEV: true
       DB_SERVER: db
       DB_NAME: presta
       DB_USER: root

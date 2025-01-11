@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 15:57:41
+/* Smarty version 3.1.48, created on 2024-12-18 11:40:41
   from '/var/www/html/pdf/pagination.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_676191659d6208_01732081',
+  'unifunc' => 'content_6762a6a9cc2324_60215937',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ee508abd811059e13df5a7308b5924708c5d9a66' => 
     array (
       0 => '/var/www/html/pdf/pagination.tpl',
-      1 => 1734445359,
+      1 => 1734517482,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_676191659d6208_01732081 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6762a6a9cc2324_60215937 (Smarty_Internal_Template $_smarty_tpl) {
 ?><p style="text-align: right; vertical-align: text-top;"> {:png:} / {:ptg:} </p>
 <?php }
 }

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 15:57:40
+/* Smarty version 3.1.48, created on 2024-12-18 11:41:19
   from 'module:pscashondeliveryviewstemp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67619164c24588_84767032',
+  'unifunc' => 'content_6762a6cf4ee7b1_64136591',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f754ebaaf7d134a49c0c3fd788a742cc1aa4232c' => 
     array (
       0 => 'module:pscashondeliveryviewstemp',
-      1 => 1734445359,
+      1 => 1734517476,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67619164c24588_84767032 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6762a6cf4ee7b1_64136591 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section id="ps_cashondelivery-displayOrderConfirmation">
   <p><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Your order on %s is complete.','sprintf'=>array($_smarty_tpl->tpl_vars['shop_name']->value),'d'=>'Modules.Cashondelivery.Shop'),$_smarty_tpl ) );?>

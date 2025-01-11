@@ -66,6 +66,11 @@ public class Tests {
     }
 
     @Test
+    public void t(){
+        System.out.print(1);
+    }
+
+    @Test
     @Order(2)
     public void searchTest(){
         driver.get("https://localhost:8443");
