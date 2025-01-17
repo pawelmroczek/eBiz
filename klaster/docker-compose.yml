@@ -4,7 +4,7 @@ services:
     image: vincenz0611/presta:1.7.8
     environment:
       DB_SERVER: admin-mysql_db
-      PS_MODE_DEV: true
+      PS_MODE_DEV: 1
       DB_NAME: BE_193218
       DB_USER: root
       DB_PASSWD: student
@@ -12,7 +12,14 @@ services:
       - admin-mysql_default
     ports:
       - "19321:443"
-
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: "4G"
+        reservations:
+          cpus: "1.0"
+          memory: "2G"
 networks:
   admin-mysql_default:
     external: true
