@@ -12,7 +12,7 @@ Projekt wykorzystuje następujące technologie i narzędzia:
 - **BeautifulSoup4** - biblioteka do parsowania HTML i ekstrakcji danych,
 - **Requests** - biblioteka do obsługi żądań HTTP,
 - **lxml** - parser XML i HTML,
-- **Selenium** - narzędzie do scrapowania stron internetowych.
+- **Selenium** - narzędzie do scrapowania stron internetowych. 
 
 ## Sposób uruchomienia
 Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
