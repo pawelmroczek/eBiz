@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t vincenz0611/presta:1.7.8 .
+        run: docker buildx build -t vincenz0611/presta:1.7.8 .
 
       - name: Push Docker image to Docker Hub
         run: docker push vincenz0611/presta:1.7.8
