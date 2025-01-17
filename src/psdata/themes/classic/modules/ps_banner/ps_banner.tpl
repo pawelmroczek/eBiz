@@ -23,7 +23,7 @@
   * @license https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
   *}
 
-  <a class="banner" href="{$banner_link}" title="{$banner_desc}">
+  <a class="banner" href="{$banner_link}" title="{$banner_desc}" onclick="gtag('event', 'banner_click')">
     <div class="ebooks__container">
       <img class="object-contain ebooks__img"
         src="https://cdn.buttercms.com/output=compress:true/resize=width:2200,fit:max/zpjYL2onQWe25lGGyc8a"

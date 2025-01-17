@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 15:57:41
+/* Smarty version 3.1.48, created on 2024-12-18 11:40:41
   from '/var/www/html/pdf/invoice.total-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67619165a6e193_14833918',
+  'unifunc' => 'content_6762a6a9ef3ff6_88617760',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2ee964880da40a54059b5f1ca0a933bfd4b7f79c' => 
     array (
       0 => '/var/www/html/pdf/invoice.total-tab.tpl',
-      1 => 1734445359,
+      1 => 1734517482,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67619165a6e193_14833918 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6762a6a9ef3ff6_88617760 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table id="total-tab" width="100%">
 
   <tr>

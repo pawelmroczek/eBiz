@@ -19,6 +19,7 @@ services:
       - ./certs:/etc/ssl/certs
       - ./certs:/etc/ssl/private
     environment:
+      PS_MODE_DEV: true
       DB_SERVER: db
       DB_NAME: presta
       DB_USER: root
@@ -28,6 +29,13 @@ services:
       - "8443:443"
     depends_on:
       - db
+    networks:
+      - prestashop
+  memcached:
+    image: memcached:latest
+    container_name: memcached
+    ports:
+      - "11211:11211"
     networks:
       - prestashop
 networks:

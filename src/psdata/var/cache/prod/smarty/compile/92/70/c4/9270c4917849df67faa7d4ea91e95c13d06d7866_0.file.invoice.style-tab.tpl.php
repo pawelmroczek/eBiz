@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-12-17 15:57:41
+/* Smarty version 3.1.48, created on 2024-12-18 11:40:41
   from '/var/www/html/pdf/invoice.style-tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_67619165a2d8a8_69353588',
+  'unifunc' => 'content_6762a6a9db7f16_37337580',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9270c4917849df67faa7d4ea91e95c13d06d7866' => 
     array (
       0 => '/var/www/html/pdf/invoice.style-tab.tpl',
-      1 => 1734445359,
+      1 => 1734517482,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67619165a2d8a8_69353588 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6762a6a9db7f16_37337580 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('color_header', "#F0F0F0");
 $_smarty_tpl->_assignInScope('color_border', "#000000");
 $_smarty_tpl->_assignInScope('color_border_lighter', "#CCCCCC");
