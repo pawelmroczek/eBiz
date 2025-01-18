@@ -1,0 +1,1 @@
+*ERROR* 	v1.7.8.11	2025/01/18 - 15:56:16: Link to database cannot be established: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known at line 137 in file classes/db/DbPDO.php
