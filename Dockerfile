@@ -8,7 +8,7 @@ COPY ./config_ssl/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
 
 COPY start_script.sh /usr/local/bin/start_script.sh
 RUN chmod +x /usr/local/bin/start_script.sh
-#RUN chmod 777 -R ./
+RUN chmod 777 -R ./
 
 RUN apt-get update && apt-get install -y \
     libmemcached-dev \
