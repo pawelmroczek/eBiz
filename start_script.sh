@@ -14,12 +14,6 @@ else
   echo "No dump file found at $DATABASE_DUMP."
 fi
 
-# Remove the install folder if it exists
-if [ -d "/var/www/html/install" ]; then
-    echo "Removing install folder..."
-    rm -rf /var/www/html/install
-fi
-
 a2enmod ssl
 
 a2ensite default-ssl
